@@ -22,5 +22,25 @@ The concept of a microservice originally crept into the software development com
 
 **图1.2 **使用微服务架构后，我们的CRM应用将拆解车一组完全互相独立的微服务，允许各个开发团队依据自己的节奏来进行开发。
 
+Looking at figure 1.2, you can see that each functional team completely owns their service code and service infrastructure. They can build, deploy, and test independently of each other because their code, source control repository, and the infrastructure \(app server and database\) are now completely independent of the other parts of the application.
+
+从图1.2中我们可以看出，每个功能团队完全拥有自己的服务代码和服务基础设施。他们能独立地构建，部署和测试，因为他们的代码，源码管理库以及基础设置（应用服务器以及数据库）都是完全独立于整体应用的其它部分。
+
+A microservice architecture has the following characteristics:
+
+* Application logic is broken down into small-grained components with well-defined boundaries of responsibility that coordinate to deliver a solution.
+
+* Each component has a small domain of responsibility and is deployed com- pletely independently of one another. Microservices should have responsibility for a single part of a business domain. Also, a microservice should be reusable across multiple applications.
+
+* Microservices communicate based on a few basic principles \(notice I said prin- ciples, not standards\) and employ lightweight communication protocols such asHTTPandJSON\(JavaScript Object Notation\) for exchanging data between the service consumer and service provider.
+
+* The underlying technical implementation of the service is irrelevant because the applications always communicate with a technology-neutral protocol \(JSONis the most common\). This means an application built using a microservice application could be built with multiple languages and technologies.
+
+* Microservices—by their small, independent, and distributed nature—allow organizations to have small development teams with well-defined areas of responsibility. These teams might work toward a single goal such as delivering an application, but each team is responsible only for the services on which they’re working.
+
+微服务体系架构有以下几点特征：
+
+* 应用逻辑
+
 
 
