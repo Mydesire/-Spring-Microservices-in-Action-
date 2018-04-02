@@ -31,7 +31,5 @@ The one constant in the field of software development is that we as software dev
 
 This book introduces you to the microservice architecture and why you should consider building your applications with them. We’re going to look at how to build microservices using Java and two Spring framework projects: Spring Boot and Spring Cloud. If you’re a Java developer, Spring Boot and Spring Cloud will provide an easy migration path from building traditional, monolithic Spring applications to microservice applications that can be deployed to the cloud.
 
-本书将像你介绍微服务体系结构并告诉你为什么应该考虑使用微服务来构建你的应用。我们将一起来看如何通过使用Java和两个Spring框架，Spring Boot和Spring Cloud，来构建微服务。如果你是一个Java程序员，Spring Boot和Spring Cloud将会让传统单体的Spring运用轻而易举地过度到能部署到云中的微服务应用。
-
-
+本书将像你介绍微服务体系结构并告诉你为什么应该考虑使用微服务来构建你的应用。我们将一起来看如何通过使用Java和两个Spring框架，Spring Boot和Spring Cloud，来构建微服务。如果你是一个Java程序员，Spring Boot和Spring Cloud能让你轻而易举地将传统单体的Spring应用迁移到到能部署到云中的微服务应用。
 
