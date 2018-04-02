@@ -18,7 +18,9 @@ The concept of a microservice originally crept into the software development com
 
 约在2014年，微服务概念引起了软件开发社区的关注，它直接反应了这些挑战：试图在技术和规模上大规模扩展应用。我们要记住，一个微服务是一个小的，松耦合的，分布式的服务。微服务允许我们将一个大型应用拆分成一个个易于管理并且严格定义好了指责的组件。微服务通过将大量代码拆解成定义良好的小块，从而帮助我们克服了大量代码复杂性的问题。对于微服务，我们必须要牢记的主要概念是，将我们的应用功能拆解，从而是它们不会相互依赖。如果我们将图1.1的CRM应用拆解成微服务，那它将变成如图1.2所示那样。
 
+![](/assets/屏幕快照 2018-04-02 21.56.47.png)**Figure 1.2** Using a microservice architecture our CRM application would be decomposed into a set of microservices completely independent of each other, allowing each development team to move at their own pace.
 
+**图1.2 **使用微服务架构后，我们的CRM应用将拆解车一组完全互相独立的微服务，允许各个开发团队依据自己的节奏来进行开发。
 
 
 
