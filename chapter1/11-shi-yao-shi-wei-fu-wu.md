@@ -30,17 +30,25 @@ A microservice architecture has the following characteristics:
 
 * Application logic is broken down into small-grained components with well-defined boundaries of responsibility that coordinate to deliver a solution.
 
-* Each component has a small domain of responsibility and is deployed com- pletely independently of one another. Microservices should have responsibility for a single part of a business domain. Also, a microservice should be reusable across multiple applications.
+* Each component has a small domain of responsibility and is deployed completely independently of one another. Microservices should have responsibility for a single part of a business domain. Also, a microservice should be reusable across multiple applications.
 
-* Microservices communicate based on a few basic principles \(notice I said prin- ciples, not standards\) and employ lightweight communication protocols such asHTTPandJSON\(JavaScript Object Notation\) for exchanging data between the service consumer and service provider.
+* Microservices communicate based on a few basic principles \(notice I said principles, not standards\) and employ lightweight communication protocols such as HTTP and JSON\(JavaScript Object Notation\) for exchanging data between the service consumer and service provider.
 
-* The underlying technical implementation of the service is irrelevant because the applications always communicate with a technology-neutral protocol \(JSONis the most common\). This means an application built using a microservice application could be built with multiple languages and technologies.
+* The underlying technical implementation of the service is irrelevant because the applications always communicate with a technology-neutral protocol \(JSON is the most common\). This means an application built using a microservice application could be built with multiple languages and technologies.
 
 * Microservices—by their small, independent, and distributed nature—allow organizations to have small development teams with well-defined areas of responsibility. These teams might work toward a single goal such as delivering an application, but each team is responsible only for the services on which they’re working.
 
 微服务体系架构有以下几点特征：
 
-* 应用逻辑分解成几个细粒度的组件。
+* 应用逻辑分解成几个细粒度的组件。这些组件有着良好定义的责任边界，并合作交付一个解决方案。
+* 每个组件都有一个范围小的责任，并且可以独立于其它组件来进行部署。每个微服务都只对一个业务领域负责，而且一个微服务可以在多个应用上被复用。
+* 微服务之间的通信基于少数几种原则（注意，我说的是原则，不是标准），并且使用轻量的通信协议（如HTTP和JSON）在服务消费者和服务提供者之间进行数据交换。
+* 服务的底层技术实现是无关紧要的，因为应用之间一般都是采用技术中立的协议（JSON是最常见的协议）来进行通信。这意味着采用微服务架构的应用能通过多种语言和技术来构建。
+* 微服务因其小，独立，分布式的天性，使得组织可以让一个个小团队去负责各自定义好的模块责任。这些团队也许是冲着一个目标（比如交付一个应用）而工作，但每个团队只对他们自己开发的服务负责。
+
+I often joke with my colleagues that microservices are the gateway drug for building cloud applications. You start building microservices because they give you a high degree of flexibility and autonomy with your development teams, but you and your team quickly find that the small, independent nature of microservices makes them easily deployable to the cloud. Once the services are in the cloud, their small size makes it easy to start up large numbers of instances of the same service, and suddenly your applications become more scalable and, with forethought, more resilient.
+
+我常常和我的同事们开玩笑说，微服务可以拿来入门构建云应用。你会去构建微服务是因为微服务能给予你高度的灵活性，并让你的开发团队们能各自管理自己，但你跟你的团队发现，微服务小而独立的天性使得他们很容易在云上部署。一旦这些服务上了云，他们的小巧使得你很容易开启相同服务的多个实例，然后突然你的应用变得更可扩展化，而且在可预见的将来变得更有弹性。
 
 
 
