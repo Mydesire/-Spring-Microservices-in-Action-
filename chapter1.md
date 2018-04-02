@@ -12,7 +12,7 @@ This chapter covers
 
 * Understanding the parts of cloud-based development
 
-* Using Spring Boot and Spring Cloud in microservice developmen
+* Using Spring Boot and Spring Cloud in microservice development
 
 
 
