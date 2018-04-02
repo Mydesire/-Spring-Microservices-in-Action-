@@ -40,7 +40,7 @@ A microservice architecture has the following characteristics:
 
 微服务体系架构有以下几点特征：
 
-* 应用逻辑
+* 应用逻辑分解成几个细粒度的组件。
 
 
 
