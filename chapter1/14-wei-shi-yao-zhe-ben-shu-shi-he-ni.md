@@ -29,7 +29,9 @@ I chose to write this book for two reasons. First, while I’ve seen many good b
 
 Second, as I’ve worked throughout my career as both an architect and engineer, I’ve found that many times the technology books that I purchase have tended to go to one of two extremes. They are either conceptual without concrete code examples, or are mechanical overviews of a particular framework or programming language. I wanted a book that would be a good bridge and middle ground between the architecture and engineering disciplines. As you read this book, I want to give you a solid introduction to the microservice patterns development and how they’re used in realworld application development, and then back these patterns up with practical and easy-to-understand code examples using Spring Boot and Spring Cloud.
 
-第二点，在我作为架构师和工程师的整个工作生涯中，我常常发现我买的技术书籍走向了两个极端。他们要么只是讲了概念而没有具体的代码例子，要么就是对特定的框架或者编程语言做了个机械的概览。我想要这么一本书，它是架构和工程
+第二点，在我作为架构师和工程师的整个工作生涯中，我常常发现我买的技术书籍走向了两个极端。他们要么只是讲了概念而没有具体的代码例子，要么就是对特定的框架或者编程语言做了个机械的概览。我想要这么一本书，它是架构和工程原则之间的桥梁和中间平台。在你读这本书时，我想为你介绍微服务模式开发，以及它们是如何用在实际应用开发过程中的，然后在微服务模式的基础上用Spring Boot和Spring Cloud写一些实用的易于理解的代码例子。
 
 Let’s shift gears for a moment and walk through building a simple microservice using Spring Boot.
+
+让我们换个方式，看看如何用Spring Boot构建一个简单的微服务。
 
