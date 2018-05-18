@@ -23,8 +23,6 @@ This chapter covers
 * 理解基于云开发的组成部分
 * 在微服务开发中使用Spring Boot和Spring Cloud
 
-Spring Microservices in Action
-
 The one constant in the field of software development is that we as software developers sit in the middle of a sea of chaos and change. We all feel the churn as new technologies and approaches appear suddenly on the scene, causing us to reevaluate how we build and deliver solutions for our customers. One example of this churn is the rapid adoption by many organizations of building applications using microservices. Microservices are distributed, loosely coupled software services that carry out a small number of well-defined tasks.
 
 在软件开发领域，有个常见的现象是，我们这群程序员总是处于混乱和变化当中。当新技术和新方法出现时，我们都会感到混乱，导致我们重新评估应该如何构建并提交解决方案给用户。比方说，现在很多组织都采用微服务来构建应用。微服务是分布式的，松耦合的软件服务，并且这些服务只完成几个明确的任务。
