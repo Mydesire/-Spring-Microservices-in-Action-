@@ -30,11 +30,39 @@ This example is by no means exhaustive or even illustrative of how you should bu
 
 **图1.3 **Spring Boot将通用的REST微服务任务进行了抽象（包括路由到业务逻辑，从URL里解析HTTP参数，将JSON和Java对象进行相互映射），从而让开发者专注于服务的业务逻辑。
 
-For this example, you’re going to have a single Java class called simpleservice/
+For this example, you’re going to have a single Java class called simpleservice/src/com/thoughtmechanix/application/simpleservice/Application.java that will be used to expose a REST endpoint called /hello.
 
-src/com/thoughtmechanix/application/simpleservice/Application.java
-
-that will be used to expose a REST endpoint called /hello.
+在这个例子中，你将看到一个Java类，其类名路径为simpleservice/src/com/thoughtmechanix/application/simpleservice/Application.java，它将被用来暴露一个叫/hello的REST端点。
 
 The following listing shows the code for Application.java.
+
+下面是Application.java的代码。
+
+```java
+// Listing 1.1 Hello World with Spring Boot: a simple Spring microservice
+package com.thoughtmechanix.simpleservice;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.PathVariable;
+
+@SpringBootApplication // 告诉Spring Boot框架这个类是Spring Boot服务的入口
+@RestController        // 告诉Spring Boot你将把这个类的代码暴露为一个Spring RestController类
+@RequestMapping(value="hello")
+public class Application {
+    public static void main(String[] args) {
+        SpringApplication.run(Application.class, args);
+    }
+    @RequestMapping(value="/{firstName}/{lastName}", method = RequestMethod.GET)
+    public String hello( @PathVariable("firstName") String firstName,
+                         @PathVariable("lastName") String lastName) {
+        return String.format("{\"message\":\"Hello %s %s\"}", firstName, lastName);
+    }
+
+}
+```
+
+
 
