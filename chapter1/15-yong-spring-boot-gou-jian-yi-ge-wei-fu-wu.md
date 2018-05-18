@@ -28,5 +28,13 @@ This example is by no means exhaustive or even illustrative of how you should bu
 
 ![](/assets/figure1.3.png)**Figure 1.3** Spring Boot abstracts away the common REST microservice task \(routing to business logic, parsing HTTP parameters from the URL, mapping JSON to/from Java Objects\), and lets the developer focus on the business logic for the service.
 
-**图1.3 **Spring Boot将通用的REST微服务任务进行了抽象（路由到业务逻辑，从URL里解析HTTP参数，将JSON和Java对象进行相互映射），从而让开发者专注于服务的业务逻辑。
+**图1.3 **Spring Boot将通用的REST微服务任务进行了抽象（包括路由到业务逻辑，从URL里解析HTTP参数，将JSON和Java对象进行相互映射），从而让开发者专注于服务的业务逻辑。
+
+For this example, you’re going to have a single Java class called simpleservice/
+
+src/com/thoughtmechanix/application/simpleservice/Application.java
+
+that will be used to expose a REST endpoint called /hello.
+
+The following listing shows the code for Application.java.
 
