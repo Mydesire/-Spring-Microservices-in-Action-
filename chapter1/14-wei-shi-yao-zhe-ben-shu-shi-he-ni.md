@@ -23,31 +23,9 @@ If you’ve gotten this far into reading chapter 1, I suspect that
 * 你想知道对于构建基于微服务的应用，Java和Spring是否是相关的技术。
 * 你有兴趣了解如何将基于微服务的应用部署到云端。
 
-I chose to write this book for two reasons. First, while I’ve seen many good books on the
+I chose to write this book for two reasons. First, while I’ve seen many good books on the conceptual aspects of microservices, I couldn’t a find a good Java-based book on implementing microservices. While I’ve always considered myself a programming language polyglot \(someone who knows and speaks several languages\), Java is my core development language and Spring has been the development framework I “reach” for whenever I build a new application. When I first came across Spring Boot and Spring Cloud, I was blown away. Spring Boot and Spring Cloud greatly simplified my development life when it came to building microservice-based applications running in the cloud.
 
-conceptual aspects of microservices, I couldn’t a find a good Java-based book on implementing microservices. While I’ve always considered myself a programming language
+Second, as I’ve worked throughout my career as both an architect and engineer, I’ve found that many times the technology books that I purchase have tended to go to one of two extremes. They are either conceptual without concrete code examples, or are mechanical overviews of a particular framework or programming language. I wanted a book that would be a good bridge and middle ground between the architecture and engineering disciplines. As you read this book, I want to give you a solid introduction to the microservice patterns development and how they’re used in realworld application development, and then back these patterns up with practical and easy-to-understand code examples using Spring Boot and Spring Cloud.
 
-polyglot \(someone who knows and speaks several languages\), Java is my core development language and Spring has been the development framework I “reach” for whenever I build a new application. When I first came across Spring Boot and Spring Cloud,
-
-I was blown away. Spring Boot and Spring Cloud greatly simplified my development life
-
-when it came to building microservice-based applications running in the cloud.
-
-Second, as I’ve worked throughout my career as both an architect and engineer,
-
-I’ve found that many times the technology books that I purchase have tended to go to
-
-one of two extremes. They are either conceptual without concrete code examples, or
-
-are mechanical overviews of a particular framework or programming language. I
-
-wanted a book that would be a good bridge and middle ground between the architecture and engineering disciplines. As you read this book, I want to give you a solid
-
-introduction to the microservice patterns development and how they’re used in realworld application development, and then back these patterns up with practical and
-
-easy-to-understand code examples using Spring Boot and Spring Cloud.
-
-Let’s shift gears for a moment and walk through building a simple microservice
-
-using Spring Boot.
+Let’s shift gears for a moment and walk through building a simple microservice using Spring Boot.
 
