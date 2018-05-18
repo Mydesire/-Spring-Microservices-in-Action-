@@ -21,7 +21,7 @@ This book is about building microservice-based applications using Spring Boot an
 * 如何用Spring Boot框架来构建微服务
 * 需要用来支持微服务应用的核心操作模式，尤其是基于云的应用
 * 如果用Spring Cloud来实现这些操作模式
-* 如何用你所学的
+* 如何用你所学的东西，以及如何构建一个部署管道，而且这个部署管道将被用来把你的服务部署到私有的内部云或者公有云提供商
 
 
 
