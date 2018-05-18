@@ -23,5 +23,17 @@ This book is about building microservice-based applications using Spring Boot an
 * 如果用Spring Cloud来实现这些操作模式
 * 如何用你所学的东西，以及如何构建一个部署管道，而且这个部署管道将被用来把你的服务部署到私有的内部云或者公有云提供商
 
+By the time you’re done reading this book, you should have the knowledge needed to
+
+build and deploy a Spring Boot-based microservice. You’ll also understand the key
+
+design decisions need to operationalize your microservices. You’ll understand how
+
+service configuration management, service discovery, messaging, logging and tracing,
+
+and security all fit together to deliver a robust microservices environment. Finally,
+
+you’ll see how your microservices can be deployed within a private or public cloud.
+
 
 
