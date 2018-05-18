@@ -4,9 +4,11 @@ I’ve always had the opinion that a software development framework is well thou
 
 我总是持着这么一个观点：一个软件开发框架是经过仔细考虑的，而且如果它经过了卡内尔猴子测试（译者注：Carnell Monkey Test，作者对它的昵称）的话，那么它应该是易用的。如果一个首次接触的人可以在十分钟之内弄明白一个框架，那么它就保证了易用性这一点。我第一次写Spring Boot服务示例时就感受到了这点。我希望你也有相同感受和乐趣，所以我们花一分钟来看看如何用Spring Boot写一个简单的”Hello World”REST服务。
 
-In this section, we’re not going to do a detailed walkthrough of much of the code
+In this section, we’re not going to do a detailed walkthrough of much of the code presented. Our goal is to give you a taste of writing a Spring Boot service. We’ll go into much more detail in chapter 2.
 
-presented. Our goal is to give you a taste of writing a Spring Boot service. We’ll go into
+在本节里，我们不会过多深入研究展示出来的代码。我们的目的是让你体验一下编写一个Spring Boot服务。我们将在第2章进行更细致的讨论。
 
-much more detail in chapter 2.
+Figure 1.3 shows what your service is going to do and the general flow of how
+
+Spring Boot microservice will process a user’s request.
 
