@@ -16,11 +16,19 @@ This example is by no means exhaustive or even illustrative of how you should bu
 
 这个例子并不是完整详尽的，它甚至无法说明你应该如何构建一个生产级别的微服务，但它应该能让你愣住一会，因为它需要写的代码是如此之少。在进入到第2章之前，我们将不进行关于如何建立项目构建文件或者代码细节的讨论。如果你想看Maven的pom.xml文件以及完整的代码，你可以在第1章节的代码里找到。第1章的所有源代码都可以从本书的Github仓库里获取，地址是[https://github.com/carnellj/spmia-chapter1](https://github.com/carnellj/spmia-chapter1)。
 
-> **NOTE** Please make sure you read appendix A before you try to run the code examples for the chapters in this book. Appendix A covers the general project layout of all the projects in the book, how to run the build scripts, and how to fire up the Docker environment. The code examples in this chapter are simple and designed to be run natively right from your desktop without the information in additional chapters. However, in later chapters you’ll quickly begin using Docker to run all the services and infrastructure used in this book. Don’t go too far into the book without reading appendix A on setting up your desktop environment.
+> **NOTE** Please make sure you read appendix A before you try to run the code  
+>  examples for the chapters in this book. Appendix A covers the general project layout of all the projects in the book, how to run the build scripts, and  
+>  how to fire up the Docker environment. The code examples in this chapter  
+>  are simple and designed to be run natively right from your desktop without  
+>  the information in additional chapters. However, in later chapters you’ll  
+>  quickly begin using Docker to run all the services and infrastructure used in  
+>  this book. Don’t go too far into the book without reading appendix A on setting up your desktop environment.
 >
 > **注意** 在运行本书的代码前请先确保阅读了附录A。附录A涵盖的内容有，本书所有项目的通用项目结构，如何运行构建脚本以及如何启动Docker环境。本章的样例代码很简单，而且它就是被设计成可以直接在你的本机桌面上运行，用不到其它章节的知识。但是，后面的章节你将通过Docker快速启动所有的服务以及书中用到的基础组件。在继续往下读之前，请先阅读附录A，学习如何设置桌面环境。
 
+![](/assets/figure1.3.png)Figure 1.3 Spring Boot abstracts away the common REST microservice task \(routing to business logic, parsing
 
+HTTP parameters from the URL, mapping JSON to/from Java Objects\), and lets the developer focus on the business
 
-
+logic for the service.
 
