@@ -14,3 +14,5 @@ This is problematic in a large project because these external linkages are britt
 
 Because microservices have become one of the more common architectural patterns for building cloud-based applications, the Spring development community has given us Spring Cloud. The Spring Cloud framework makes it simple to operationalize and deploy microservices to a private or public cloud. Spring Cloud wraps several popular cloud-management microservice frameworks under a common framework and makes the use and deployment of these technologies as easy to use as annotating your code. I cover the different components within Spring Cloud later in this chapter.
 
+微服务已经成为构建基于云的应用的常用架构模式，而Spring开发社区则推出了Spring Cloud。Spring Cloud框架使得研发微服务以及将微服务部署到私有云或者公有云都变得简单。Spring Cloud将几个著名的云管理微服务包装在一个通用的框架下，
+
