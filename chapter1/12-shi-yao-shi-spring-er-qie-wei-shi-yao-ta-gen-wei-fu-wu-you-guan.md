@@ -8,5 +8,9 @@ This is problematic in a large project because these external linkages are britt
 
 在大型的项目中，这将会产生问题，因为这些外部的关联很脆弱而且做了变动还会对其它代码产生一系列的影响。一个依赖注入框架（如Spring）能让你更容易地去管理大型的Java项目，因为它通过约定好的惯例（还有注解）将你应用内部的对象间的关联在外部就做好了，而不是让这些对象各自将其它对象硬编码在自己的代码里。Spring在应用的不同Java类之间扮演了一个中介的角色，管理这些类之间的依赖。实质上，Spring使得你可以像组装乐高那样将你的代码组装在一起。
 
+> **NOTE** While we cover REST in more detail in chapter 2, the core concept behind REST is that your services should embrace the use of the HTTP verbs \(GET, POST, PUT, and DELETE\) to represent the core actions of the service and use a lightweight web-oriented data serialization protocol, such as JSON, for requesting and receiving data from the service.
+>
+> **注意 **我们将在第2章里覆盖更多关于REST的细节，REST的核心概念是你的服务要采用HTTP动词（GET，POST，PUT和DELETE）来表示服务的核心行为，并且使用轻量的面向web的数据序列化协议（如JSON）
+
 
 
