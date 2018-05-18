@@ -4,4 +4,5 @@
 * [第1章 欢迎使用Spring Cloud](chapter1.md)
   * [1.1 什么是微服务](chapter1/11-shi-yao-shi-wei-fu-wu.md)
   * [1.2 什么是Spring而且为什么它跟微服务有关](chapter1/12-shi-yao-shi-spring-er-qie-wei-shi-yao-ta-gen-wei-fu-wu-you-guan.md)
+  * [1.3 你将会在本书里学到的内容](chapter1/13-ni-jiang-hui-zai-ben-shu-li-xue-dao-de-nei-rong.md)
 
