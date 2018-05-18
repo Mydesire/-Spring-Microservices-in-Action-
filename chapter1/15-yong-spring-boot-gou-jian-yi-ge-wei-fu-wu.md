@@ -8,7 +8,21 @@ In this section, we’re not going to do a detailed walkthrough of much of the c
 
 在本节里，我们不会过多深入研究展示出来的代码。我们的目的是让你体验一下编写一个Spring Boot服务。我们将在第2章进行更细致的讨论。
 
-Figure 1.3 shows what your service is going to do and the general flow of how
+Figure 1.3 shows what your service is going to do and the general flow of how Spring Boot microservice will process a user’s request.
 
-Spring Boot microservice will process a user’s request.
+图1.3展示了你的服务将要做什么，以及一般情况下Spring Boot微服务是如何处理用户的请求的。
+
+This example is by no means exhaustive or even illustrative of how you should
+
+build a production-level microservice, but it should cause you to take a pause because
+
+of how little code it took to write it. We’re not going to go through how to set up the
+
+project build files or the details of the code until chapter 2. If you’d like to see the
+
+Maven pom.xml file and the actual code, you can find it in the chapter 1 section of the
+
+downloadable code. All the source code for chapter 1 can be retrieved from the
+
+GitHub repository for the book at https://github.com/carnellj/spmia-chapter1.
 
