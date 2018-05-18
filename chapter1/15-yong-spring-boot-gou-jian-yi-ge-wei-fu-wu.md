@@ -26,5 +26,7 @@ This example is by no means exhaustive or even illustrative of how you should bu
 >
 > **注意** 在运行本书的代码前请先确保阅读了附录A。附录A涵盖的内容有，本书所有项目的通用项目结构，如何运行构建脚本以及如何启动Docker环境。本章的样例代码很简单，而且它就是被设计成可以直接在你的本机桌面上运行，用不到其它章节的知识。但是，后面的章节你将通过Docker快速启动所有的服务以及书中用到的基础组件。在继续往下读之前，请先阅读附录A，学习如何设置桌面环境。
 
-![](/assets/figure1.3.png)Figure 1.3 Spring Boot abstracts away the common REST microservice task \(routing to business logic, parsing HTTP parameters from the URL, mapping JSON to/from Java Objects\), and lets the developer focus on the business logic for the service.
+![](/assets/figure1.3.png)**Figure 1.3** Spring Boot abstracts away the common REST microservice task \(routing to business logic, parsing HTTP parameters from the URL, mapping JSON to/from Java Objects\), and lets the developer focus on the business logic for the service.
+
+**图1.3 **Spring Boot将通用的REST微服务任务进行了抽象（路由到业务逻辑，从URL里解析HTTP参数，将JSON和Java对象进行相互映射），从而让开发者专注于服务的业务逻辑。
 
