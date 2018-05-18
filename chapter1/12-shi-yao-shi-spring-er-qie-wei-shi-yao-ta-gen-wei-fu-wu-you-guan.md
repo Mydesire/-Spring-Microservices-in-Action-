@@ -12,5 +12,17 @@ This is problematic in a large project because these external linkages are britt
 >
 > **注意 **我们将在第2章里覆盖更多关于REST的细节，REST的核心概念是你的服务要采用HTTP动词（GET，POST，PUT和DELETE）来表示服务的核心行为，并且使用轻量的面向web的数据序列化协议（如JSON）向服务请求和获取数据。
 
+Because microservices have become one of the more common architectural patterns
 
+for building cloud-based applications, the Spring development community has given
+
+us Spring Cloud. The Spring Cloud framework makes it simple to operationalize and
+
+deploy microservices to a private or public cloud. Spring Cloud wraps several popular
+
+cloud-management microservice frameworks under a common framework and makes
+
+the use and deployment of these technologies as easy to use as annotating your code. I
+
+cover the different components within Spring Cloud later in this chapter.
 
