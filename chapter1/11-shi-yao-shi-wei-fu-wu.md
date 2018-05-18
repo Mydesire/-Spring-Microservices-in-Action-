@@ -24,7 +24,7 @@ The concept of a microservice originally crept into the software development com
 
 Looking at figure 1.2, you can see that each functional team completely owns their service code and service infrastructure. They can build, deploy, and test independently of each other because their code, source control repository, and the infrastructure \(app server and database\) are now completely independent of the other parts of the application.
 
-从图1.2中我们可以看出，每个功能团队完全拥有自己的服务代码和服务基础设施。他们能独立地构建，部署和测试，因为他们的代码，源码管理库以及基础设置（应用服务器以及数据库）都是完全独立于整体应用的其它部分。
+从图1.2中我们可以看出，每个功能团队完全拥有自己的服务代码和服务基础设施。他们能独立地进行构建，部署和测试，因为他们的代码，源码管理库以及基础设置（应用服务器以及数据库）都是完全独立于整体应用的其它部分。
 
 A microservice architecture has the following characteristics:
 
@@ -40,7 +40,7 @@ A microservice architecture has the following characteristics:
 
 微服务体系架构有以下几点特征：
 
-* 应用逻辑分解成几个细粒度的组件。这些组件有着良好定义的责任边界，并合作交付一个解决方案。
+* 应用逻辑分解成几个细粒度的组件。这些组件有着良好定义的责任边界，它们合作并交付一个解决方案。
 * 每个组件都有一个范围小的责任，并且可以独立于其它组件来进行部署。每个微服务都只对一个业务领域负责，而且一个微服务可以在多个应用上被复用。
 * 微服务之间的通信基于少数几种原则（注意，我说的是原则，不是标准），并且使用轻量的通信协议（如HTTP和JSON）在服务消费者和服务提供者之间进行数据交换。
 * 服务的底层技术实现是无关紧要的，因为应用之间一般都是采用技术中立的协议（JSON是最常见的协议）来进行通信。这意味着采用微服务架构的应用能通过多种语言和技术来构建。
