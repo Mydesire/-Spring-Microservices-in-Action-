@@ -68,5 +68,19 @@ public class Application {
 }
 ```
 
+In listing 1.1 you’re basically exposing a singleGET HTTP endpoint that will take two parameters \(firstName and lastName\) on theURLand then return a simple JSON string that has a payload containing the message “Hello firstName lastName”. If you were to call the endpoint/hello/john/carnell on your service \(which I’ll show shortly\) the return of the call would be 
+
+```
+{"message":"Hello john carnell"}
+```
+
+Spring Microservices in Action
+
+Let’s fire up your service. To do this, go to the command prompt and issue the follow- ing command:
+
+```
+mvn spring-boot:run
+```
+
 
 
