@@ -50,14 +50,18 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 @SpringBootApplication // 告诉Spring Boot框架这个类是Spring Boot服务的入口
 @RestController        // 告诉Spring Boot你将把这个类的代码暴露为一个Spring RestController类
-@RequestMapping(value="hello")
+@RequestMapping(value="hello")    // 所有暴露给这个应用的URL将以/hello开头
 public class Application {
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
+    // Spring Boot将把这个端口暴露为一个基于GET方法的REST端口，这个端口
+    // 接收两个参数：firstName和lastName
     @RequestMapping(value="/{firstName}/{lastName}", method = RequestMethod.GET)
+    // 将传入URL的参数firstName和lastName映射为传给hello函数的两个变量
     public String hello( @PathVariable("firstName") String firstName,
                          @PathVariable("lastName") String lastName) {
+        // 返回一个手工构建的JSON字符串。在第2章里你将不用创建任何JSON                 
         return String.format("{\"message\":\"Hello %s %s\"}", firstName, lastName);
     }
 
