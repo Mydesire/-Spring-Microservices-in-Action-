@@ -70,6 +70,8 @@ public class Application {
 
 In listing 1.1 you’re basically exposing a single GET HTTP endpoint that will take two parameters \(firstName and lastName\) on the URL and then return a simple JSON string that has a payload containing the message “Hello firstName lastName”. If you were to call the endpoint/hello/john/carnell on your service \(which I’ll show shortly\) the return of the call would be
 
+在列表1.1里，你暴露了一个GET HTTP的端点，这个端点接收两个参数（firstName和lastName）
+
 ```
 {"message":"Hello john carnell"}
 ```
