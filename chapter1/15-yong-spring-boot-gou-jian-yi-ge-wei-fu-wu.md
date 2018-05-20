@@ -80,5 +80,15 @@ Let’s fire up your service. To do this, go to the command prompt and issue the
 mvn spring-boot:run
 ```
 
+This command, mvn, will use a Spring Boot plug-in to start the application using an embedded Tomcat server.
+
+> **Java vs. Groovy and Maven vs. Gradle（Java vs. Groovy和Maven vs. Gradle）**
+>
+> The Spring Boot framework has strong support for both Java and the Groovy program- ming languages. You can build microservices with Groovy and no project setup. Spring Boot also supports both Maven and the Gradle build tools. I’ve limited the examples in this book to Java and Maven. As a long-time Groovy and Gradle aficionado, I have a healthy respect for the language and the build tool, but to keep the book manageable and the material focused, I’ve chosen to go with Java and Maven to reach the largest audience possible.
+>
+> Spring  Boot框架
+
+
+
 
 
