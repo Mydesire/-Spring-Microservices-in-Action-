@@ -98,5 +98,7 @@ If everything starts correctly, you should see what’s shown in figure 1.4 from
 
 If you examine the screen in figure 1.4, you’ll notice two things. First, a Tomcat server was started on port 8080. Second, a GET endpoint of /hello/{firstName}/{lastName} is exposed on the server.
 
-如果你仔细看图1.4，你将发现两个现象。第一，Tomcat服务器启动在8080端口上。第二，一个GET方法的端点/hello/{firstName}/{lastName}暴露在服务上。![](/assets/figure1.5.png)Figure 1.5 The response from the /hello endpoint shows the data you’ve requested represented as a JSON payload.
+如果你仔细看图1.4，你将发现两个现象。第一，Tomcat服务器启动在8080端口上。第二，一个GET方法的端点/hello/{firstName}/{lastName}暴露在服务上。![](/assets/figure1.5.png)**Figure 1.5** The response from the /hello endpoint shows the data you’ve requested represented as a JSON payload.
+
+**图1.5** /hello端点的响应以JSON格式展示了你请求的结果。
 
