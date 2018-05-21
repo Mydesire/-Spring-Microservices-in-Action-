@@ -92,3 +92,13 @@ This command, mvn, will use a Spring Boot plug-in to start the application using
 
 **图1.4** 你的Spring Boot服务启动时将在控制台将输出暴露的端点以及服务的端口号。（服务将将监听并处理8080端口进来的HTTP请求，/hello端点映射了两个变量：firstName和lastName。——译者注）
 
+If everything starts correctly, you should see what’s shown in figure 1.4 from your
+
+command-line window.
+
+If you examine the screen in figure 1.4, you’ll notice two things. First, a Tomcat
+
+server was started on port 8080. Second, a GET endpoint of /hello/{firstName}/
+
+{lastName} is exposed on the server.
+
