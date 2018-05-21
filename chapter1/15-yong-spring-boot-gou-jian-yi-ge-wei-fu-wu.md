@@ -72,7 +72,7 @@ In listing 1.1 you’re basically exposing a single GET HTTP endpoint that will 
 
 Let’s fire up your service. To do this, go to the command prompt and issue the following command:
 
-
+下面我们来启动服务。打开命令行，输入以下命令：
 
 ```
 mvn spring-boot:run
@@ -80,11 +80,17 @@ mvn spring-boot:run
 
 This command, mvn, will use a Spring Boot plug-in to start the application using an embedded Tomcat server.
 
+这条mvn命令将通过Spring Boot插件来启动内嵌了Tomcat服务器的应用。
+
 > **Java vs. Groovy and Maven vs. Gradle（Java vs. Groovy和Maven vs. Gradle）**
 >
 > The Spring Boot framework has strong support for both Java and the Groovy programming languages. You can build microservices with Groovy and no project setup. Spring Boot also supports both Maven and the Gradle build tools. I’ve limited the examples in this book to Java and Maven. As a long-time Groovy and Gradle aficionado, I have a healthy respect for the language and the build tool, but to keep the book manageable and the material focused, I’ve chosen to go with Java and Maven to reach the largest audience possible.
 >
-> Spring  Boot框架同时对Java和Groovy提供了强有力的支持。
+> Spring  Boot框架同时对Java和Groovy提供了强有力的支持。你可以用Groovy构建微服务，而且不用建立项目。Spring Boot也同时支持了Maven和Gradle两种构建工具。在本书中，我将采用Java和Maven。作为一个Groovy和Gradle的忠实粉丝，我很尊重这门语言和这个构建工具，但为了让这本书便于管理以及专注于内容，我选用了Java和Maven，以便能让更多读者阅读本书。
+
+![](/assets/figure1.4.png)**Figure 1.4** Your Spring Boot service will communicate the endpoints exposed and the port of the service
+
+via the console.
 
 
 
