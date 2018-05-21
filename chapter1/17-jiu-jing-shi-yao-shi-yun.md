@@ -42,5 +42,17 @@ In a Platform as a Service \(PaaS\) model you still have responsibility for the 
 
 在平台即服务（PaaS）的模型中，你仍然需要对饭菜负责，但你可以更多地依靠提供商去为你完成做饭相关的任务。例如，在PaaS模型中，你提供碗筷和家具，但是饭馆老板提供微波炉，配料以及做饭师傅。在软件即服务（SaaS）模型中，你只需去饭馆，那里已经为你准备好了所有的饭菜。你在饭馆里吃，吃完后付钱就可以了。你也不用准备或者洗任何碗筷。
 
-The key items at play in each of these models are ones of control: who’s responsi- ble for maintaining the infrastructure and what are the technology choices available for building the application? In a IaaS model, the cloud vendor provides the basic infrastructure, but you’re accountable for selecting the technology and building the final solution. On the other end of the spectrum, with a SaaS model, you’re a passive consumer of the service provided by the vendor and have no input on the technology selection or any accountability to maintain the infrastructure for the application.
+The key items at play in each of these models are ones of control: who’s responsible for maintaining the infrastructure and what are the technology choices available for building the application? In a IaaS model, the cloud vendor provides the basic infrastructure, but you’re accountable for selecting the technology and building the final solution. On the other end of the spectrum, with a SaaS model, you’re a passive consumer of the service provided by the vendor and have no input on the technology selection or any accountability to maintain the infrastructure for the application.
+
+
+
+> **Emerging cloud platforms**
+>
+> I’ve documented the three core cloud platform types \(IaaS, PaaS, SaaS\) that are in use today. However, new cloud platform types are emerging. These new platforms include Functions as a Service \(FaaS\) and Container as a Service \(CaaS\). FaaS-based \([https://en.wikipedia.org/wiki/Function\_as\_a\_Service](https://en.wikipedia.org/wiki/Function_as_a_Service)\) applications use technologies like Amazon’s Lambda technologies and Google Cloud functions to build applications deployed as “serverless” chunks of code that run completely on the cloud provider’s platform computing infrastructure. With a FaaS platform, you don’t have to manage any server infrastructure and only pay for the computing cycles required to execute the function.
+>
+> With the Container as a Service \(CaaS\) model, developers build and deploy their microservices as portable virtual containers \(such as Docker\) to a cloud provider. Unlike an IaaS model, where you the developer have to manage the virtual machine the service is deployed to, with CaaS you’re deploying your services in a lightweight virtual container. The cloud provider runs the virtual server the container is running on as well as the provider’s comprehensive tools for building, deploying, monitoring, and scaling containers. Amazon’s Elastic Container Service \(ECS\) is an example of a CaaS-based platform. In chapter 10 of this book, we’ll see how to deploy the microservices you’ve built to Amazon ECS.
+>
+> It’s important to note that with both the FaaS and CaaS models of cloud computing, you can still build a microservice-based architecture. Remember, the concept of microservices revolves around building small services, with limited responsibility, using an HTTP-based interface to communicate. The emerging cloud computing plat- forms, such as FaaS and CaaS, are really about alternative infrastructure mechanisms for deploying microservices.
+
+
 
