@@ -28,17 +28,17 @@ To better understand these concepts, let’s map the everyday task of making a m
 
 ![](/assets/figure1.6.png)**Figure 1.6** The different cloud computing models come down to who’s responsible for what: the cloud vendor or you.
 
-图1.6 不同的云计算模型归结为谁负责什么：云供应商还是你。
+**图1.6** 不同的云计算模型归结为谁负责什么：云供应商还是你。
 
 Figure 1.6 shows each model.
 
+图1.6展示了每个模型包含的内容。
+
 The difference between these options is about who’s responsible for cooking these meals and where the meal is going to be cooked. In the on-premise model, eating a meal at home requires you to do all the work, using your own oven and ingredients already in the home. A store-bought meal is like using the Infrastructure as a Service \(IaaS\) model of computing. You’re using the store’s chef and oven to pre-bake the meal, but you’re still responsible for heating the meal and eating it at the house \(and cleaning up the dishes afterward\).
+
+这些模型的不同之处在于，谁对做饭负责，将在哪里做饭。在第一种模式下，在家里吃需要你包揽所有的活，使用你自己的微波炉和家里的配料。从便利店里买饭类似于使用基础架构即服务（IaaS）模型的计算。便利店里的厨师帮你做好
 
 In a Platform as a Service \(PaaS\) model you still have responsibility for the meal, but you further rely on a vendor to take care of the core tasks associated with making a meal. For example, in a PaaS model, you supply the plates and furniture, but the res- taurant owner provides the oven, ingredients, and the chef to cook them. In the Soft- ware as a Service \(SaaS\) model, you go to a restaurant where all the food is prepared for you. You eat at the restaurant and then you pay for the meal when you’re done. you also have no dishes to prepare or wash.
 
 The key items at play in each of these models are ones of control: who’s responsi- ble for maintaining the infrastructure and what are the technology choices available for building the application? In a IaaS model, the cloud vendor provides the basic infrastructure, but you’re accountable for selecting the technology and building the final solution. On the other end of the spectrum, with a SaaS model, you’re a passive consumer of the service provided by the vendor and have no input on the technology selection or any accountability to maintain the infrastructure for the application.
-
-
-
-
 
