@@ -14,15 +14,9 @@ Figure 1.3 shows what your service is going to do and the general flow of how Sp
 
 This example is by no means exhaustive or even illustrative of how you should build a production-level microservice, but it should cause you to take a pause because of how little code it took to write it. We’re not going to go through how to set up the project build files or the details of the code until chapter 2. If you’d like to see the Maven pom.xml file and the actual code, you can find it in the chapter 1 section of the downloadable code. All the source code for chapter 1 can be retrieved from the GitHub repository for the book at [https://github.com/carnellj/spmia-chapter1](https://github.com/carnellj/spmia-chapter1).
 
-这个例子并不是完整详尽的，它甚至无法说明你应该如何构建一个生产级别的微服务，但它应该能让你愣住一会，因为它需要写的代码是如此之少。在进入到第2章之前，我们将不进行关于如何建立项目构建文件或者代码细节的讨论。如果你想看Maven的pom.xml文件以及完整的代码，你可以在第1章节的代码里找到。第1章的所有源代码都可以从本书的Github仓库里获取，地址是[https://github.com/carnellj/spmia-chapter1](https://github.com/carnellj/spmia-chapter1)。
+这个例子并不是完整详尽的，它甚至无法告诉你应该如何构建一个生产级别的微服务，但它应该能让你愣住一会，因为它需要写的代码是如此之少。在进入到第2章之前，我们将不进行关于如何建立项目构建文件或者代码细节的讨论。如果你想看Maven的pom.xml文件以及完整的代码，你可以在第1章节的代码里找到。第1章的所有源代码都可以从本书的Github仓库里获取，地址是[https://github.com/carnellj/spmia-chapter1](https://github.com/carnellj/spmia-chapter1)。
 
-> **NOTE** Please make sure you read appendix A before you try to run the code  
->  examples for the chapters in this book. Appendix A covers the general project layout of all the projects in the book, how to run the build scripts, and  
->  how to fire up the Docker environment. The code examples in this chapter  
->  are simple and designed to be run natively right from your desktop without  
->  the information in additional chapters. However, in later chapters you’ll  
->  quickly begin using Docker to run all the services and infrastructure used in  
->  this book. Don’t go too far into the book without reading appendix A on setting up your desktop environment.
+> **NOTE** Please make sure you read appendix A before you try to run the code examples for the chapters in this book. Appendix A covers the general project layout of all the projects in the book, how to run the build scripts, and how to fire up the Docker environment. The code examples in this chapter are simple and designed to be run natively right from your desktop without the information in additional chapters. However, in later chapters you’ll quickly begin using Docker to run all the services and infrastructure used in this book. Don’t go too far into the book without reading appendix A on setting up your desktop environment.
 >
 > **注意** 在运行本书的代码前请先确保阅读了附录A。附录A涵盖的内容有，本书所有项目的通用项目结构，如何运行构建脚本以及如何启动Docker环境。本章的样例代码很简单，而且它就是被设计成可以直接在你的本机桌面上运行，用不到其它章节的知识。但是，后面的章节你将通过Docker快速启动所有的服务以及书中用到的基础组件。在继续往下读之前，请先阅读附录A，学习如何设置桌面环境。
 
@@ -68,15 +62,17 @@ public class Application {
 }
 ```
 
-In listing 1.1 you’re basically exposing a single GET HTTP endpoint that will take two parameters \(firstName and lastName\) on the URL and then return a simple JSON string that has a payload containing the message “Hello firstName lastName”. If you were to call the endpoint/hello/john/carnell on your service \(which I’ll show shortly\) the return of the call would be
+In listing 1.1 you’re basically exposing a single GET HTTP endpoint that will take two parameters \(firstName and lastName\) on the URL and then return a simple JSON string that has a payload containing the message “Hello firstName lastName”. If you were to call the endpoint /hello/john/carnell on your service \(which I’ll show shortly\) the return of the call would be
 
-在列表1.1里，你暴露了一个GET HTTP的端点，这个端点接收两个参数（firstName和lastName）
+在列表1.1里，你暴露了一个GET HTTP的端点，这个端点接收了URL上的两个参数（firstName和lastName），然后返回一个简单的JSON字符串，它的内容为“Hello firstName lastName”。如果你在你的服务上调用了端点/hello/john/carnell，那么返回的内容将会是以下这样的：
 
 ```
 {"message":"Hello john carnell"}
 ```
 
 Let’s fire up your service. To do this, go to the command prompt and issue the following command:
+
+
 
 ```
 mvn spring-boot:run
