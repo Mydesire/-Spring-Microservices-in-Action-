@@ -90,3 +90,5 @@ This command, mvn, will use a Spring Boot plug-in to start the application using
 
 ![](/assets/figure1.4.png)**Figure 1.4** Your Spring Boot service will communicate the endpoints exposed and the port of the service via the console.
 
+**图1.4** 你的Spring Boot服务启动时将在控制台将输出暴露的端点以及服务的端口号。（服务将将监听并处理8080端口进来的HTTP请求，/hello端点映射了两个变量：firstName和lastName。——译者注）
+
