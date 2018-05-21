@@ -12,5 +12,12 @@ The term “cloud” has become overused. Every software vendor has a cloud and 
 * 平台即服务（Platform as a Service，PaaS）
 * 软件即服务（Software as a Service，SaaS）
 
+To better understand these concepts, let’s map the everyday task of making a meal to the different models of cloud computing. When you want to eat a meal, you have four choices:
+
+1. You can make the meal at home.
+2. You can go to the grocery store and buy a meal pre-made that you heat up and serve.
+3. You can get a meal delivered to your house.
+4. You can get in the car and eat at restaurant.![](/assets/figure1.6.png)
+
 
 
