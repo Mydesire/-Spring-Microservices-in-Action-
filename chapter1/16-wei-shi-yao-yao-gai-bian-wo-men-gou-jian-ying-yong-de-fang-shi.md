@@ -26,7 +26,7 @@ To meet these expectations, we, as application developers, have to embrace the p
 
 * 灵活性——解耦后的服务可以组合并重排，以达到快速交付新的功能的目的。一个开发人员要写的代码单元越小，修改代码时的复杂度就越低，而且测试部署代码所需要的时间也越少。
 * 弹性——服务解耦意味着一个应用不再是一个单独的“水泥块”，在“水泥块”里，应用的某个部分降级都将引起整个应用不可用。在整个应用停机之前，某些不可用可以被定位于应用的某个小部分并仅限于该部分。这点也使得应用在出现不可恢复的错误时进行优雅的降级。
-* 可扩展性——解耦后的服务可以很容易
+* 可扩展性——解耦后的服务可以很容易在多个服务器之间进行水平发布，使得这些服务能恰当地扩展特性或服务。
 
 To this end, as we begin our discussion of microservices keep the following in mind:
 
