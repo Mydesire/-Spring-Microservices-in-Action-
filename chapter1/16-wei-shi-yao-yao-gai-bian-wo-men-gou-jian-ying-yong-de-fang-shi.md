@@ -22,6 +22,10 @@ To meet these expectations, we, as application developers, have to embrace the p
 
 * _Scalable_—Decoupled services can easily be distributed horizontally across multiple servers, making it possible to scale the features/services appropriately. With a monolithic application where all the logic for the application is intertwined, the entire application needs to scale even if only a small part of the application is the bottleneck. Scaling on small services is localized and much more costeffective.
 
+为了满足这些需求，我们作为应用开发者必须接受构建高扩展性和高度冗余应用的悖论，我们需要将应用分成一个个小的服务，这些服务可以各自独立于其它服务进行构建和部署。如果我们将应用分解成一组小的服务，并且将这些服务从一个单体里移除，我们构建出来的系统就会如下几个特性
+
+* 灵活——解耦后的服务可以组合并重排，以达到快速交付新的功能的效果。
+
 To this end, as we begin our discussion of microservices keep the following in mind:
 
 _Small, Simple, and Decoupled Services = Scalable, Resilient, and Flexible Applications_
