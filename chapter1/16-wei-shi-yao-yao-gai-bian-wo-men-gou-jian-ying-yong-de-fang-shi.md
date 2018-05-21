@@ -25,6 +25,7 @@ To meet these expectations, we, as application developers, have to embrace the p
 为了满足这些需求，我们作为应用开发者必须接受构建高扩展性和高度冗余应用的悖论，我们需要将应用分成一个个小的服务，这些服务可以各自独立于其它服务进行构建和部署。如果我们将应用分解成一组小的服务，并且将这些服务从一个单体里移除，我们构建出来的系统就会如下几个特性
 
 * 灵活——解耦后的服务可以组合并重排，以达到快速交付新的功能的目的。一个开发人员要写的代码单元越小，修改代码时的复杂度就越低，而且测试部署代码所需要的时间也越少。
+* 弹性——服务解耦意味着一个应用不再是一个单独的“水泥块”，在“水泥块”里，应用的某个部分降级都将引起整个应用不可用。
 
 To this end, as we begin our discussion of microservices keep the following in mind:
 
