@@ -9,7 +9,7 @@ We’re at an inflection point in history. Almost all aspects of modern society 
 
 我们正处于历史的拐点。现代社会的方方面面几乎都与互联网密不可分。原本只服务于当地市场的公司突然发现他们接触到全球的客户群。然而，在接触到全球客户群的同时，也带来了全球性的竞争。这些竞争压力意味着，开发者在考虑开发应用时受着以下几点影响：
 
-* 复杂度正在上升——用户期望组织的每一个部分都知道他们是谁。
+* 复杂度正在上升——用户期望组织的每一个部分都知道他们是谁。只跟单一数据库交互并且不与其它应用整合的“孤立”应用不再常见。今时今日的应用需要与不同的服务
 * 用户想要更快的交付
 * 性能和可扩展性
 * 用户期望他们的应用是可用的
@@ -19,6 +19,7 @@ To meet these expectations, we, as application developers, have to embrace the p
 * _Flexible_—Decoupled services can be composed and rearranged to quickly deliver new functionality. The smaller the unit of code that one is working with, the less complicated it is to change the code and the less time it takes to test deploy the code.
 
 * _Resilient_—Decoupled services mean an application is no longer a single “ball of mud” where a degradation in one part of the application causes the whole application to fail. Failures can be localized to a small part of the application and contained before the entire application experiences an outage. This also enables the applications to degrade gracefully in case of an unrecoverable error.
+
 * _Scalable_—Decoupled services can easily be distributed horizontally across multiple servers, making it possible to scale the features/services appropriately. With a monolithic application where all the logic for the application is intertwined, the entire application needs to scale even if only a small part of the application is the bottleneck. Scaling on small services is localized and much more costeffective.
 
 To this end, as we begin our discussion of microservices keep the following in mind:
