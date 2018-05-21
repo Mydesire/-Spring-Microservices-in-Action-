@@ -110,7 +110,9 @@ You’re going to call your service using a browser-based REST tool called POSTM
 
 Obviously, this simple example doesn’t demonstrate the full power of Spring Boot. But what it should show is that you can write a full HTTP JSON REST-based service with route-mapping of URL and parameters in Java with as few as 25 lines of code. As any experienced Java developer will tell you, writing anything meaningful in 25 lines of code in Java is extremely difficult. Java, while being a powerful language, has acquired a reputation of being wordy compared to other languages.
 
-很明显，这个简单的例子并没有显示出Spring Boot真正强大之处。但它展现了你可以仅用25行代码写出一个完整的基于REST的HTTP JSON服务，并且将URL和Java参数进行路径映射。就像很多有经验的Java程序员将会告诉你的那样，想在25行的Java代码里写一个有意义的东西是十分困难的。Java虽然是一门强大的语言，但比起其他语言，它还是显得啰嗦。
+很明显，这个简单的例子并没有显示出Spring Boot真正强大之处。但它展现了你可以仅用25行代码写出一个完整的 基于REST的HTTP JSON服务，并且将URL和Java参数进行路径映射。就像很多有经验的Java程序员将会告诉你的那样，想在25行的Java代码里写一个有意义的东西是十分困难的。Java虽然是一门强大的语言，但比起其他语言，它还是显得啰嗦。
 
 We’re done with our brief tour of Spring Boot. We now have to ask this question: because we can write our applications using a microservice approach, does this mean we should? In the next section, we’ll walk through why and when a microservice approach is justified for building your applications.
+
+我们结束了简短的Spring Boot之旅。现在，我们要问这么一个问题：我们采用微服务的方式来编写我们的应用，但这种方式是应该的吗？在下一节里，我们将学习为什么以及什么时候适合用微服务的方式来构建应用。
 
