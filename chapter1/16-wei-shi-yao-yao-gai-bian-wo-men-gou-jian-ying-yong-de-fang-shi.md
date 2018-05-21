@@ -32,3 +32,7 @@ To this end, as we begin our discussion of microservices keep the following in m
 
 _Small, Simple, and Decoupled Services = Scalable, Resilient, and Flexible Applications_
 
+就像我们开始对微服务进行讨论的那样，在本节末尾，请记住以下这条公式：
+
+小而简单的解耦服务 = 可扩展而且弹性
+
