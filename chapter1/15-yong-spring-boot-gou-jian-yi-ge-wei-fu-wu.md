@@ -102,33 +102,9 @@ If you examine the screen in figure 1.4, you’ll notice two things. First, a To
 
 **图1.5** /hello端点的响应以JSON格式展示了你请求的结果。
 
-You’re going to call your service using a browser-based REST tool called POSTMAN
+You’re going to call your service using a browser-based REST tool called POSTMAN \([https://www.getpostman.com/](https://www.getpostman.com/\)\). Many tools, both graphical and command line, are available for invoking a REST-based service, but I’ll use POSTMAN for all my examples in this book. Figure 1.5 shows the POSTMAN call to the [http://localhost:8080/hello/john/carnell](http://localhost:8080/hello/john/carnell) endpoint and the results returned from the service.
 
-\(https://www.getpostman.com/\). Many tools, both graphical and command line, are
+Obviously, this simple example doesn’t demonstrate the full power of Spring Boot. But what it should show is that you can write a full HTTP JSON REST-based service with route-mapping of URL and parameters in Java with as few as 25 lines of code. As any experienced Java developer will tell you, writing anything meaningful in 25 lines of code in Java is extremely difficult. Java, while being a powerful language, has acquired a reputation of being wordy compared to other languages.
 
-available for invoking a REST-based service, but I’ll use POSTMAN for all my examples
-
-in this book. Figure 1.5 shows the POSTMAN call to the http://localhost:8080/
-
-hello/john/carnell endpoint and the results returned from the service.
-
-Obviously, this simple example doesn’t demonstrate the full power of Spring Boot.
-
-But what it should show is that you can write a full HTTP JSON REST-based service with
-
-route-mapping of URL and parameters in Java with as few as 25 lines of code. As any
-
-experienced Java developer will tell you, writing anything meaningful in 25 lines of
-
-code in Java is extremely difficult. Java, while being a powerful language, has acquired
-
-a reputation of being wordy compared to other languages.
-
-We’re done with our brief tour of Spring Boot. We now have to ask this question:
-
-because we can write our applications using a microservice approach, does this mean
-
-we should? In the next section, we’ll walk through why and when a microservice
-
-approach is justified for building your applications.
+We’re done with our brief tour of Spring Boot. We now have to ask this question: because we can write our applications using a microservice approach, does this mean we should? In the next section, we’ll walk through why and when a microservice approach is justified for building your applications.
 
