@@ -7,4 +7,5 @@
   * [1.3 你将会在本书里学到的内容](chapter1/13-ni-jiang-hui-zai-ben-shu-li-xue-dao-de-nei-rong.md)
   * [1.4 为什么这本书适合你](chapter1/14-wei-shi-yao-zhe-ben-shu-shi-he-ni.md)
   * [1.5 用Spring Boot构建一个微服务](chapter1/15-yong-spring-boot-gou-jian-yi-ge-wei-fu-wu.md)
+  * 1.6 为什么要改变我们构建应用的方式
 
