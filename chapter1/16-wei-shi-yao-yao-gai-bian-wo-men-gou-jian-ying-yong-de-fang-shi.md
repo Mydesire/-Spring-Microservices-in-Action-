@@ -11,8 +11,8 @@ We’re at an inflection point in history. Almost all aspects of modern society 
 
 * 复杂度正在上升——用户期望组织的每一个部分都知道他们是谁。只跟单一数据库交互并且不与其它应用整合的“孤立”应用不再常见。今时今日的应用需要与不同的服务和数据库进行交互，而且这些数据库不仅存在于某个公司的内部数据中心，而且还存在于互联网上的外部服务提供商。
 * 用户想要更快的交付——用户不想再等待下一个年度发布或者软件包的版本。而是希望软件产品的特性不是被绑定的，这样，新的功能可以在短短的几周内（甚至几天）就可以被发布出来，而不用等整个产品发布。
-* 性能和可扩展性——
-* 用户期望他们的应用是可用的
+* 性能和可扩展性——应用的全球化使我们很难去预测应用将要处理多少事务以及这些事务量什么时候出现。应用需要在多个不同服务器上进行快速扩展，然后在事务量降下去后进行规模回缩。
+* 用户期望他们的应用是可用的——由于用户只需一个小小的鼠标点击就可以去到竞争对手那里去，所以一个公司的应用必须具有高度的弹性。应用局部出现问题不应该让整个应用都变得不可用。
 
 To meet these expectations, we, as application developers, have to embrace the paradox that to build high-scalable and highly redundant applications we need to break our applications into small services that can be built and deployed independently of one another. If we “unbundle” our applications into small services and move them away from a single monolithic artifact, we can build systems that are
 
