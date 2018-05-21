@@ -36,9 +36,11 @@ Figure 1.6 shows each model.
 
 The difference between these options is about who’s responsible for cooking these meals and where the meal is going to be cooked. In the on-premise model, eating a meal at home requires you to do all the work, using your own oven and ingredients already in the home. A store-bought meal is like using the Infrastructure as a Service \(IaaS\) model of computing. You’re using the store’s chef and oven to pre-bake the meal, but you’re still responsible for heating the meal and eating it at the house \(and cleaning up the dishes afterward\).
 
-这些模型的不同之处在于，谁对做饭负责，将在哪里做饭。在第一种模式下，在家里吃需要你包揽所有的活，使用你自己的微波炉和家里的配料。从便利店里买饭类似于使用基础架构即服务（IaaS）模型的计算。便利店里的厨师帮你做好
+这些模型的不同之处在于，谁对做饭负责，将在哪里做饭。在第一种模式下，在家里吃需要你包揽所有的活，使用你自己的微波炉和家里的配料。从便利店里买饭类似于使用基础架构即服务（IaaS）模型的计算。你通过便利店里的厨师和微波炉先做好了饭菜，但你仍要对饭菜进行加热并且在家里进行享用（吃完后还得自己清理碗筷）。
 
-In a Platform as a Service \(PaaS\) model you still have responsibility for the meal, but you further rely on a vendor to take care of the core tasks associated with making a meal. For example, in a PaaS model, you supply the plates and furniture, but the res- taurant owner provides the oven, ingredients, and the chef to cook them. In the Soft- ware as a Service \(SaaS\) model, you go to a restaurant where all the food is prepared for you. You eat at the restaurant and then you pay for the meal when you’re done. you also have no dishes to prepare or wash.
+In a Platform as a Service \(PaaS\) model you still have responsibility for the meal, but you further rely on a vendor to take care of the core tasks associated with making a meal. For example, in a PaaS model, you supply the plates and furniture, but the res- taurant owner provides the oven, ingredients, and the chef to cook them. In the Software as a Service \(SaaS\) model, you go to a restaurant where all the food is prepared for you. You eat at the restaurant and then you pay for the meal when you’re done. you also have no dishes to prepare or wash.
+
+在平台即服务（PaaS）的模型中，你仍然需要对饭菜负责，但你可以更多地依靠提供商去为你完成做饭相关的任务。例如，在PaaS模型中，你提供碗筷和家具，但是饭馆老板提供微波炉，配料以及做饭师傅。在软件即服务（SaaS）模型中，你只需去饭馆，那里已经为你准备好了所有的饭菜。你在饭馆里吃，吃完后付钱就可以了。你也不用准备或者洗任何碗筷。
 
 The key items at play in each of these models are ones of control: who’s responsi- ble for maintaining the infrastructure and what are the technology choices available for building the application? In a IaaS model, the cloud vendor provides the basic infrastructure, but you’re accountable for selecting the technology and building the final solution. On the other end of the spectrum, with a SaaS model, you’re a passive consumer of the service provided by the vendor and have no input on the technology selection or any accountability to maintain the infrastructure for the application.
 
