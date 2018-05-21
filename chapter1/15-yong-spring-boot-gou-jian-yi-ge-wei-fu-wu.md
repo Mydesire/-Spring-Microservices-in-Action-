@@ -88,9 +88,5 @@ This command, mvn, will use a Spring Boot plug-in to start the application using
 >
 > Spring  Boot框架同时对Java和Groovy提供了强有力的支持。你可以用Groovy构建微服务，而且不用建立项目。Spring Boot也同时支持了Maven和Gradle两种构建工具。在本书中，我将采用Java和Maven。作为一个Groovy和Gradle的忠实粉丝，我很尊重这门语言和这个构建工具，但为了让这本书便于管理以及专注于内容，我选用了Java和Maven，以便能让更多读者阅读本书。
 
-![](/assets/figure1.4.png)**Figure 1.4** Your Spring Boot service will communicate the endpoints exposed and the port of the service
-
-via the console.
-
-
+![](/assets/figure1.4.png)**Figure 1.4** Your Spring Boot service will communicate the endpoints exposed and the port of the service via the console.
 
