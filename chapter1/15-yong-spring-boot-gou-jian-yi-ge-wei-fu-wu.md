@@ -102,7 +102,9 @@ If you examine the screen in figure 1.4, you’ll notice two things. First, a To
 
 **图1.5** /hello端点的响应以JSON格式展示了你请求的结果。
 
-You’re going to call your service using a browser-based REST tool called POSTMAN \([https://www.getpostman.com/](https://www.getpostman.com/\)\). Many tools, both graphical and command line, are available for invoking a REST-based service, but I’ll use POSTMAN for all my examples in this book. Figure 1.5 shows the POSTMAN call to the [http://localhost:8080/hello/john/carnell](http://localhost:8080/hello/john/carnell) endpoint and the results returned from the service.
+You’re going to call your service using a browser-based REST tool called POSTMAN \([https://www.getpostman.com/](https://www.getpostman.com/%29\)）. Many tools, both graphical and command line, are available for invoking a REST-based service, but I’ll use POSTMAN for all my examples in this book. Figure 1.5 shows the POSTMAN call to the [http://localhost:8080/hello/john/carnell](http://localhost:8080/hello/john/carnell) endpoint and the results returned from the service.
+
+你将通过使用一个基于浏览器的REST工具，POSTMAN（[https://www.getpostman.com/](https://www.getpostman.com/)），来调用你的服务。很多工具，无论是图形界面的还是命令行的，都可以调用基于REST的服务，但对于本书的所有例子，我将采用POSTMAN。图1.5展示了POSTMAN调用[http://localhost:8080/hello/john/carnell](http://localhost:8080/hello/john/carnell)端点，然后服务返回结果的过程。
 
 Obviously, this simple example doesn’t demonstrate the full power of Spring Boot. But what it should show is that you can write a full HTTP JSON REST-based service with route-mapping of URL and parameters in Java with as few as 25 lines of code. As any experienced Java developer will tell you, writing anything meaningful in 25 lines of code in Java is extremely difficult. Java, while being a powerful language, has acquired a reputation of being wordy compared to other languages.
 
