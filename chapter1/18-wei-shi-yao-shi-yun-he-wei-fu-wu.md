@@ -44,9 +44,11 @@ For this book, all the microservices and corresponding service infrastructure wi
 >
 > For instance, Amazon, Cloud Foundry, and Heroku give you the ability to deploy your services without having to know about the underlying application container. They provide a web interface and APIs to allow you to deploy your application as a WAR or JAR file. Setting up and tuning the application server and the corresponding Java container are abstracted away from you. While this is convenient, each cloud provider’s platform has different idiosyncrasies related to its individual PaaS solution.
 >
-> 例如，Amazon，Cloud Foundry，以及Heroku能让你部署服务时不用知道底层的应用容器是怎样的。他们提供了一个web接口以及一些API，来让你将你的应用部署成一个WAR文件或者JAR文件。应用服务器的设置和调优以及相应的Java容器都是对你透明的。虽然这很方便，但每个云提供商的平台
+> 例如，Amazon，Cloud Foundry，以及Heroku能让你部署服务时不用知道底层的应用容器是怎样的。他们提供了一个web接口以及一些API，来让你将你的应用部署成一个WAR文件或者JAR文件。应用服务器的设置和调优以及相应的Java容器都是对你透明的。虽然这很方便，但每个云提供商的平台都有各自PaaS解决方案相关的不同特质。
 >
 > An IaaS approach, while more work, is portable across multiple cloud providers and allows us to reach a wider audience with our material. Personally, I’ve found that PaaS-based cloud solutions can allow you to quickly jump start your development effort, but once your application reaches enough microservices, you start to need the flexibility the IaaS style of cloud development provides.
+>
+> IaaS方式虽然需要做更多的工作，但可以在多个平台之间进行移植，而且允许我们的产品覆盖更多的用户。个人观点是，我发现基于PaaS的云解决方案虽然允许你可以快速启动
 >
 > Earlier in the chapter, I mentioned new cloud computing platforms such as Function as a Service \(FaaS\) and Container as a Service \(CaaS\). If you’re not careful, FaaS- based platforms can lock your code into a cloud vendor platform because your code is deployed to a vendor-specific runtime engine. With a FaaS-based model, you might be writing your service using a general programming language \(Java, Python, JavaScript, and so on\), but you’re still tying yourself heavily to the underlying vendor APIs and runtime engine that your function will be deployed to.
 
