@@ -14,7 +14,7 @@ Let’s walk through the items in figure 1.7 in more detail:
 
 _Right-sized_—How do you ensure that your microservices are properly sized so that you don’t have a microservice take on too much responsibility? Remember, properly sized, a service allows you to quickly make changes to an application and reduces the overall risk of an outage to the entire application.
 
-合适的大小——你如何确保你的微服务的大小是合适的，使得每个微服务的责任都不会太多？记住，大小合适的微服务可以让你对应用做出快速的改变，减少整体应用中断的风险。（译者注：其实就是如何让某个微服务只专注于某个特定责任）
+合适的大小——如何确保微服务的大小是合适的，使得每个微服务的责任都不会太多？记住，大小合适的微服务可以让你对应用做出快速的改变，减少整体应用中断的风险。（译者注：其实就是如何让某个微服务只专注于某个特定责任）
 
 _Location transparent_—How you we manage the physical details of service invocation when in a microservice application, multiple service instances can quickly start and shut down?
 
@@ -22,9 +22,11 @@ _Location transparent_—How you we manage the physical details of service invoc
 
 _Resilient_—How do you protect your microservice consumers and the overall integrity of your application by routing around failing services and ensuring that you take a “fail-fast” approach?
 
-弹性——你如何对失败了的服务进行路由并确保采取“快速失败”的措施，以此保护微服务的消费方以及应用的整体完整性？（译者注：说白了，就是当某个服务出现问题时，如何让它的客户端快速回退）
+弹性——如何对失败了的服务进行路由并确保采取“快速失败”的措施，以此保护微服务的消费方以及应用的整体完整性？（译者注：说白了，就是当某个服务出现问题时，如何让它的客户端快速回退）
 
 _Repeatable_—How do you ensure that every new instance of your service brought up is guaranteed to have the same configuration and code base as all the other service instances in production?
+
+可重复性——如何保证每个新添的服务实例的配置及代码与生产上的其它服务实例一致？
 
 _Scalable_—How do you use asynchronous processing and events to minimize the direct dependencies between your services and ensure that you can gracefully scale your microservices?
 
