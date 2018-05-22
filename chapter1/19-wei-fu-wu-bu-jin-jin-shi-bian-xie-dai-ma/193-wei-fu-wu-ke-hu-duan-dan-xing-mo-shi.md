@@ -12,11 +12,10 @@ Because microservice architectures are highly distributed, you have to be extrem
 
 由于微服务架构是高度分散的，你必须对这个问题保持高度的敏感性，那就是如何防止某个服务（或者服务实例）里出现的问题逐层呈现给该服务的消费方。为此，我们将介绍四种客户端弹性模式：
 
-* 客户端负载均衡——
+* 客户端负载均衡——如何将服务实例的位置在服务客户端上缓存起来，以使多个微服务实例的调用可以被负载均衡到该服务的健康实例上？
+* 断路器模式——当某个服务发生故障或者遇到性能问题时，如何防止客户端继续调用它？当一个服务运行很慢时，它将消耗正在消费它的客户端上的资源。此时，你应该让发生了故障的微服务调用
 
 **Figure 1.10** With microservices, you must protect the service caller from a poorly behaving service. Remember, a slow or down service can cause disruptions beyond the immediate service.
 
 Figure 1.10 shows how these patterns protect the consumer of service from being impacted when a service is misbehaving. I cover these four topics in chapter 5.
-
-
 
