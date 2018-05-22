@@ -2,13 +2,20 @@
 
 One of the core concepts of a microservice-based architecture is that each service is packaged and deployed as its own discrete and independent artifact. Service instances should be brought up quickly and each instance of the service should be indistin- guishable from another.
 
+微服务架构的一个核心概念是，将每个服务打包并部署成独立的项目。服务实例应该是可以快速被增加的，而且服务实例之间互相独立。
+
 As a developer writing a microservice, sooner or later you’re going to have to decide whether your service is going to be deployed to one of the following:
 
-*  Physical server—While you can build and deploy your microservices to a physi- cal machine\(s\), few organizations do this because physical servers are con- strained. You can’t quickly ramp up the capacity of a physical server and it can become extremely costly to scale your microservice horizontally across multiple physical servers.
+* Physical server—While you can build and deploy your microservices to a physical machine\(s\), few organizations do this because physical servers are constrained. You can’t quickly ramp up the capacity of a physical server and it can become extremely costly to scale your microservice horizontally across multiple physical servers.
 
 * Virtual machine images—One of the key benefits of microservices is their ability to quickly start up and shut down microservice instances in response to scalability and service failure events. Virtual machines are the heart and soul of the major cloud providers. A microservice can be packaged up in a virtual machine image and multiple instances of the service can then be quickly deployed and started in either a IaaS private or public cloud.
 
-* Virtual container—Virtual containers are a natural extension of deploying your microservices on a virtual machine image. Rather than deploying a service to a full virtual machine, many developers deploy their services as Docker contain- ers \(or equivalent container technology\) to the cloud. Virtual containers run inside a virtual machine; using a virtual container, you can segregate a single virtual machine into a series of self-contained processes that share the same virtual machine image.
+* Virtual container—Virtual containers are a natural extension of deploying your microservices on a virtual machine image. Rather than deploying a service to a full virtual machine, many developers deploy their services as Docker containers \(or equivalent container technology\) to the cloud. Virtual containers run inside a virtual machine; using a virtual container, you can segregate a single virtual machine into a series of self-contained processes that share the same virtual machine image.
+
+作为一个编写微服务的开发人员，迟早你都要决定你的服务部署在哪里，有下面几种选择：
+
+* 物理服务器——虽然你可以在物理机上构建并部署微服务，但没有几个组织会这么做，因为物理机会有一些限制。你无法快速提高物理机的容量，而且如果你想在多台物理机上进行微服务横向扩展时，这种方式会变得极其昂贵。
+* 虚拟机镜像——
 
 The advantage of cloud-based microservices centers around the concept of elasticity. Cloud service providers allow you to quickly spin up new virtual machines and contain- ers in a matter of minutes. If your capacity needs for your services drop, you can spin down virtual servers without incurring any additional costs. Using a cloud provider to deploy your microservices gives you significantly more horizontal scalability \(adding more servers and service instances\) for your applications. Server elasticity also means that your applications can be more resilient. If one of your microservices is having prob- lems and is falling over, spinning up new service instances can you keep your applica- tion alive long enough for your development team to gracefully resolve the issue.
 
