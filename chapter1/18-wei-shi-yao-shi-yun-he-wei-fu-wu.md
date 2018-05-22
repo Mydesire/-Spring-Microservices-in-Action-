@@ -51,6 +51,10 @@ For this book, all the microservices and corresponding service infrastructure wi
 > IaaS方式虽然需要做更多的工作，但可以在多个平台之间进行移植，而且允许我们的产品覆盖更多的用户。个人观点是，我发现基于PaaS的云解决方案虽然允许你可以快速启动你的开发工作，但一旦你的应用的微服务的量上来时，你就开始需要IaaS方式的云开发所能带给你的灵活性了。
 >
 > Earlier in the chapter, I mentioned new cloud computing platforms such as Function as a Service \(FaaS\) and Container as a Service \(CaaS\). If you’re not careful, FaaS- based platforms can lock your code into a cloud vendor platform because your code is deployed to a vendor-specific runtime engine. With a FaaS-based model, you might be writing your service using a general programming language \(Java, Python, JavaScript, and so on\), but you’re still tying yourself heavily to the underlying vendor APIs and runtime engine that your function will be deployed to.
+>
+> 在本章的前面部分，我提到一些新的云计算平台，例如函数即服务（Function as a Service，FaaS）以及容器即服务（Container as a Service，CaaS）。如果你不小心的话，基于FaaS的平台将会把你的代码限定在某个云提供商，因为你的代码部署在一个指定提供商的运行时引擎。使用基于FaaS的模型，你虽然可以用通用的编程语言（Java，Python，JavaScript，等等）来编写你的服务，但你仍然将你自己与底层供应商的API以及部署着你的函数的运行时引擎牢牢绑定在一起。
 
 The services built in this book are packaged as Docker containers. One of the reasons why I chose Docker is that as a container technology, Docker is deployable to all the major cloud providers. Later in chapter 10, I demonstrate how to package microser- vices using Docker and then deploy these containers to Amazon’s cloud platform.
+
+本书里构建的服务都被打包成Docker容器。我之所以选用Docker的一个原因是，作为一种容器技术，Docker可以部署到多个主流的云提供商那里去。在第10章里，我将演示说明如何用Docker来打包微服务然后将这些容器部署到亚马逊的云平台。
 
