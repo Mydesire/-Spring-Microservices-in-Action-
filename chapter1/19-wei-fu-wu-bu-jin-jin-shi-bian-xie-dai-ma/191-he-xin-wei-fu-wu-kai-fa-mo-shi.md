@@ -14,5 +14,5 @@ _Interface design_—What’s the best way to design the actual service interfac
 
 _Configuration management of service_—How do you manage the configuration of your microservice so that as it moves between different environments in the cloud you never have to change the core application code or configuration? I cover managing service configuration in chapter 3.
 
-_Event processing between services_—How do you decouple your microservice using events so that you minimize hardcoded dependencies between your services and increase the resiliency of your application? I cover event processing between services in chapter 8.
+_Event processing between services_—How do you decouple your microservice using events so that you minimize hardcoded dependencies between your services and increase the resiliency of your application? I cover event processing between services in chapter 8.
 
