@@ -42,9 +42,9 @@ For this book, all the microservices and corresponding service infrastructure wi
 >
 > 在本章的前面我们讨论过三种云平台类型（基础设施即服务，平台即服务，以及软件即服务）。对于本书，我选择专注于通过使用基于IaaS的方式来构建微服务。虽然某些云提供商能让你为你的微服务抽象掉部署基础设施，但我选择保持不依赖于提供商并部署应用的所有部分（包括服务器）。
 >
-> For instance, Amazon, Cloud Foundry, and Heroku give you the ability to deploy your services without having to know about the underlying application container. They provide a web interface and APIs to allow you to deploy your application as a WAR or JAR file. Setting up and tuning the application server and the corresponding Java con- tainer are abstracted away from you. While this is convenient, each cloud provider’s platform has different idiosyncrasies related to its individual PaaS solution.
+> For instance, Amazon, Cloud Foundry, and Heroku give you the ability to deploy your services without having to know about the underlying application container. They provide a web interface and APIs to allow you to deploy your application as a WAR or JAR file. Setting up and tuning the application server and the corresponding Java container are abstracted away from you. While this is convenient, each cloud provider’s platform has different idiosyncrasies related to its individual PaaS solution.
 >
-> 例如，Amazon，Cloud Foundry，以及Heroku能让你部署服务时不用知道底层的应用容器是怎样的。他们提供了一个web接口以及一些API，来让你将你的应用部署成一个WAR文件或者JAR文件。
+> 例如，Amazon，Cloud Foundry，以及Heroku能让你部署服务时不用知道底层的应用容器是怎样的。他们提供了一个web接口以及一些API，来让你将你的应用部署成一个WAR文件或者JAR文件。应用服务器的设置和调优以及相应的Java容器都是对你透明的。虽然这很方便，但每个云提供商的平台
 >
 > An IaaS approach, while more work, is portable across multiple cloud providers and allows us to reach a wider audience with our material. Personally, I’ve found that PaaS-based cloud solutions can allow you to quickly jump start your development effort, but once your application reaches enough microservices, you start to need the flexibility the IaaS style of cloud development provides.
 >
