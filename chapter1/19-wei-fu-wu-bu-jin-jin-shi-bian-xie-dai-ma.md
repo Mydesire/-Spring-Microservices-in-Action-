@@ -46,7 +46,14 @@ This book takes a patterns-based approach as we answer these questions. With a p
 
 * Build and deployment patterns
 
-在回答这些问题时，本书采用基于模式的方式。通过基于模式的方式，我们制定了可用于不同技术实现的通用设计。
+在回答这些问题时，本书采用基于模式的方式。通过基于模式的方式，我们制定了可用于不同技术实现的通用设计。虽然我们采用Spring Boot和Spring Cloud来实现本书将要用到的模式，但你也可以将这些模式与其它的技术平台进行结合。我们会突出覆盖微服务模式的以下六个方面：
+
+* 核心开发模式
+* 路由模式
+* 客户端弹性模式
+* 安全模式
+* 日志和追踪模式
+* 构建和部署模式
 
 Let’s walk through these patterns in more detail.
 
