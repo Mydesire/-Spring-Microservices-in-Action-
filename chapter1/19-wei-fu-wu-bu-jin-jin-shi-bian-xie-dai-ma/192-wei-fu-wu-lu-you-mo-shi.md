@@ -15,7 +15,12 @@ Service discovery and routing answer the question, “How do I get my client’s
 
 **Figure 1.9** Service discovery and routing are key parts of any large-scale microservice application.
 
+**图1.9 **服务发现和路由是任何大规模微服务应用的关键部分。
+
 * _Service routing_—How do you provide a single entry point for all of your services so that security policies and routing rules are applied uniformly to multiple services and service instances in your microservice applications? How do you ensure that each developer in your team doesn’t have to come up with their own solutions for providing routing to their services? I cover service routing in chapter 6.
+* 服务路由——如何为所有的服务提供单一的入口，使得安全策略和路由规则可以用于你的微服务应用的多个服务和服务实例？如何确保小组里的每个开发人员不必提供自己的路由到他们服务的方案？我将在第6章讨论服务路由。
 
 In figure 1.9, service discovery and service routing appear to have a hard-coded sequence of events between them \(first comes service routing and the service discovery\). However, the two patterns aren’t dependent on one another. For instance, we can implement service discovery without service routing. You can implement service routing without service discovery \(even though its implementation is more difficult\).
+
+
 
