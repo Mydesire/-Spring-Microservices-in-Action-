@@ -30,6 +30,8 @@ _Repeatable_—How do you ensure that every new instance of your service brought
 
 _Scalable_—How do you use asynchronous processing and events to minimize the direct dependencies between your services and ensure that you can gracefully scale your microservices?
 
+可扩展性——
+
 This book takes a patterns-based approach as we answer these questions. With a patterns-based approach, we lay out common designs that can be used across different technology implementations. While we’ve chosen to use Spring Boot and Spring Cloud to implement the patterns we’re going to use in this book, nothing will keep you from taking the concepts presented here and using them with other technology platforms. Specifically, we cover the following six categories of microservice patterns:
 
 * Core development patterns
