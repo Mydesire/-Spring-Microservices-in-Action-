@@ -40,9 +40,11 @@ For this book, all the microservices and corresponding service infrastructure wi
 >
 > Earlier in the chapter we discussed three types of cloud platforms \(Infrastructure as a Service, Platform as a Service, and Software as a Services\). For this book, I’ve chosen to focus specifically on building microservices using an IaaS-based approach. While certain cloud providers will let you abstract away the deployment infrastructure for your microservice, I’ve chosen to remain vendor-independent and deploy all parts of my application \(including the servers\).
 >
-> 在本章的前面我们讨论过三种云平台类型（基础设施即服务，平台即服务，以及软件即服务）。对于本书，我选择专注于通过使用基于IaaS的方式来构建微服务。虽然某些云提供商能让你
+> 在本章的前面我们讨论过三种云平台类型（基础设施即服务，平台即服务，以及软件即服务）。对于本书，我选择专注于通过使用基于IaaS的方式来构建微服务。虽然某些云提供商能让你为你的微服务抽象掉部署基础设施，但我选择保持不依赖于提供商并部署应用的所有部分（包括服务器）。
 >
 > For instance, Amazon, Cloud Foundry, and Heroku give you the ability to deploy your services without having to know about the underlying application container. They pro- vide a web interface and APIs to allow you to deploy your application as a WAR or JAR file. Setting up and tuning the application server and the corresponding Java con- tainer are abstracted away from you. While this is convenient, each cloud provider’s platform has different idiosyncrasies related to its individual PaaS solution.
+>
+> 例如，
 >
 > An IaaS approach, while more work, is portable across multiple cloud providers and allows us to reach a wider audience with our material. Personally, I’ve found that PaaS-based cloud solutions can allow you to quickly jump start your development effort, but once your application reaches enough microservices, you start to need the flexibility the IaaS style of cloud development provides.
 >
