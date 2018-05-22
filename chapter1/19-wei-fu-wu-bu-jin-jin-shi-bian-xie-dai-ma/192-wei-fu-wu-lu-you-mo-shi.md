@@ -2,6 +2,8 @@
 
 The microservice routing patterns deal with how a client application that wants to consume a microservice discovers the location of the service and is routed over to it. In a cloud-based application, you might have hundreds of microservice instances running. You’ll need to abstract away the physical IP address of these services and have a single point of entry for service calls so that you can consistently enforce security and content policies for all service calls.
 
+微服务路由模式处理这么一个问题，一个要消费微服务的客户端应用
+
 Service discovery and routing answer the question, “How do I get my client’s request for a service to a specific instance of a service?”
 
 * _Service discovery_—How do you make your microservice discoverable so client applications can find them without having the location of the service hardcoded into the application? How do you ensure that misbehaving microservice instances are removed from the pool of available service instances? I cover service discovery in chapter 4.
