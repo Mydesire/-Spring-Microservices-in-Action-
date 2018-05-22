@@ -13,4 +13,5 @@
   * [1.9 微服务不仅仅是编写代码](chapter1/19-wei-fu-wu-bu-jin-jin-shi-bian-xie-dai-ma.md)
     * [1.9.1 核心微服务开发模式](chapter1/19-wei-fu-wu-bu-jin-jin-shi-bian-xie-dai-ma/191-he-xin-wei-fu-wu-kai-fa-mo-shi.md)
     * [1.9.2 微服务路由模式](chapter1/19-wei-fu-wu-bu-jin-jin-shi-bian-xie-dai-ma/192-wei-fu-wu-lu-you-mo-shi.md)
+    * [1.9.3 微服务客户端弹性模式](chapter1/19-wei-fu-wu-bu-jin-jin-shi-bian-xie-dai-ma/193-wei-fu-wu-ke-hu-duan-dan-xing-mo-shi.md)
 
