@@ -46,5 +46,7 @@ This book takes a patterns-based approach as we answer these questions. With a p
 
 * Build and deployment patterns
 
+在回答这些问题时，本书采用基于模式的方式。通过基于模式的方式，我们制定了可用于不同技术实现的通用设计。
+
 Let’s walk through these patterns in more detail.
 
