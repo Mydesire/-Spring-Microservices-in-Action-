@@ -10,4 +10,5 @@
   * [1.6 为什么要改变我们构建应用的方式](chapter1/16-wei-shi-yao-yao-gai-bian-wo-men-gou-jian-ying-yong-de-fang-shi.md)
   * [1.7 究竟什么是云](chapter1/17-jiu-jing-shi-yao-shi-yun.md)
   * [1.8 为什么是云和微服务](chapter1/18-wei-shi-yao-shi-yun-he-wei-fu-wu.md)
+  * [1.9 微服务不仅仅是编写代码](chapter1/19-wei-fu-wu-bu-jin-jin-shi-bian-xie-dai-ma.md)
 
