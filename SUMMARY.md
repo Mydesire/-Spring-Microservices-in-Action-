@@ -12,4 +12,5 @@
   * [1.8 为什么是云和微服务](chapter1/18-wei-shi-yao-shi-yun-he-wei-fu-wu.md)
   * [1.9 微服务不仅仅是编写代码](chapter1/19-wei-fu-wu-bu-jin-jin-shi-bian-xie-dai-ma.md)
     * [1.9.1 核心微服务开发模式](chapter1/19-wei-fu-wu-bu-jin-jin-shi-bian-xie-dai-ma/191-he-xin-wei-fu-wu-kai-fa-mo-shi.md)
+    * [1.9.2 微服务路由模式](chapter1/19-wei-fu-wu-bu-jin-jin-shi-bian-xie-dai-ma/192-wei-fu-wu-lu-you-mo-shi.md)
 
