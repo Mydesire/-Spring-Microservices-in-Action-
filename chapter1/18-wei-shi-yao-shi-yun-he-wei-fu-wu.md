@@ -20,7 +20,7 @@ As a developer writing a microservice, sooner or later you’re going to have to
 
 The advantage of cloud-based microservices centers around the concept of elasticity. Cloud service providers allow you to quickly spin up new virtual machines and containers in a matter of minutes. If your capacity needs for your services drop, you can spin down virtual servers without incurring any additional costs. Using a cloud provider to deploy your microservices gives you significantly more horizontal scalability \(adding more servers and service instances\) for your applications. Server elasticity also means that your applications can be more resilient. If one of your microservices is having problems and is falling over, spinning up new service instances can you keep your application alive long enough for your development team to gracefully resolve the issue.
 
-基于云的微服务的优势是，它仅仅围绕着弹性的概念。云服务提供商允许你在几分钟内快速创建型的虚拟机和虚拟容器。如果你的服务容量需求下降了，你可以减少虚拟服务器，而且不会产生任何额外的费用。通过云服务提供商来部署你的微服务可为你的应用带来更多的横向扩展能力（增加更多的服务器和服务实例）。服务器具备弹性也意味着你的应用可以更有弹性。如果你其中一个微服务出现了问题并且挂了，那么启动新的服务实例能让你的应用撑过足够长的时间，知道你的研发团队最终解决这个问题。
+基于云的微服务的优势是，它仅仅围绕着弹性的概念。云提供商允许你在几分钟内快速创建型的虚拟机和虚拟容器。如果你的服务容量需求下降了，你可以减少虚拟服务器，而且不会产生任何额外的费用。通过云提供商来部署你的微服务可为你的应用带来更多的横向扩展能力（增加更多的服务器和服务实例）。服务器具备弹性也意味着你的应用可以更有弹性。如果你其中一个微服务出现了问题并且挂了，那么启动新的服务实例能让你的应用撑过足够长的时间，知道你的研发团队最终解决这个问题。
 
 For this book, all the microservices and corresponding service infrastructure will be deployed to an IaaS-based cloud provider using Docker containers. This is a common deployment topology used for microservices:
 
@@ -30,11 +30,13 @@ For this book, all the microservices and corresponding service infrastructure wi
 
 * High redundancy through geographic distribution—By necessity, IaaS providers have multiple data centers. By deploying your microservices using an IaaS cloud provider, you can gain a higher level of redundancy beyond using clusters in a data center.
 
-对于本书，所有的微服务和相应的服务基础设施都将使用Docker容器并部署在一个基于IaaS的云服务提供商那里。以下是微服务常用的部署拓扑：
+对于本书，所有的微服务和相应的服务基础设施都将使用Docker容器并部署在一个基于IaaS的云提供商那里。以下是微服务常用的部署拓扑：
 
-* 简化基础设施的惯例——
+* 简化基础设施的惯例——IaaS云提供商使你能最大限度地控制你的服务。新服务的启动和停止都可以通过简单的API调用来进行。采用IaaS云解决方案，你只需支付你用到的基础设施的费用。
+* 大规模的横向扩展性——IaaS云提供商允许你快速有效启动一个或多个服务实例。这种能力意味着你可以快速扩展服务并绕过行为不当或者出现故障的服务器。
+* 通过跨区域发布提高冗余度——出于需要，IaaS提供商拥有多个数据中心。通过IaaS云提供商来部署你的微服务，除了在数据中心使用集群，你还能获得高度的冗余性。
 
-> **Why not PaaS-based microservices?**
+> **Why not PaaS-based microservices? 为什么不是基于PaaS的微服务？**
 >
 > Earlier in the chapter we discussed three types of cloud platforms \(Infrastructure as a Service, Platform as a Service, and Software as a Services\). For this book, I’ve cho- sen to focus specifically on building microservices using an IaaS-based approach. While certain cloud providers will let you abstract away the deployment infrastructure for your microservice, I’ve chosen to remain vendor-independent and deploy all parts of my application \(including the servers\).
 >
