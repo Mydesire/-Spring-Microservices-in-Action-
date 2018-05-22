@@ -44,7 +44,7 @@ For this book, all the microservices and corresponding service infrastructure wi
 >
 > For instance, Amazon, Cloud Foundry, and Heroku give you the ability to deploy your services without having to know about the underlying application container. They provide a web interface and APIs to allow you to deploy your application as a WAR or JAR file. Setting up and tuning the application server and the corresponding Java con- tainer are abstracted away from you. While this is convenient, each cloud provider’s platform has different idiosyncrasies related to its individual PaaS solution.
 >
-> 例如，Amazon，Cloud Foundry，以及Heroku能让你部署服务时不用知道底层的应用容器是怎样的。
+> 例如，Amazon，Cloud Foundry，以及Heroku能让你部署服务时不用知道底层的应用容器是怎样的。他们提供了一个web接口以及一些API，来让你将你的应用部署成一个WAR文件或者JAR文件。
 >
 > An IaaS approach, while more work, is portable across multiple cloud providers and allows us to reach a wider audience with our material. Personally, I’ve found that PaaS-based cloud solutions can allow you to quickly jump start your development effort, but once your application reaches enough microservices, you start to need the flexibility the IaaS style of cloud development provides.
 >
