@@ -57,3 +57,5 @@ This book takes a patterns-based approach as we answer these questions. With a p
 
 Let’s walk through these patterns in more detail.
 
+接下来让我们详细看看这些模式。
+
