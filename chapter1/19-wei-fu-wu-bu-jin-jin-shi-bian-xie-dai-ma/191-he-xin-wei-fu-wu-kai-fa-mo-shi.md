@@ -2,6 +2,8 @@
 
 The core development microservice development pattern addresses the basics of building a microservice. Figure 1.8 highlights the topics we’ll cover around basic service design.
 
+核心微服务开发模式是构建微服务的基础。图1.8展示了我们将要谈到的基础服务设计的方方面面。
+
 ![](/assets/figure1.8.png)
 
 **Figure 1.8** When designing your microservice, you have to think about how the service will be consumed and communicated with.
