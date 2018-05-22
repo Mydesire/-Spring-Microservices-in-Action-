@@ -22,5 +22,5 @@ Service discovery and routing answer the question, “How do I get my client’s
 
 In figure 1.9, service discovery and service routing appear to have a hard-coded sequence of events between them \(first comes service routing and the service discovery\). However, the two patterns aren’t dependent on one another. For instance, we can implement service discovery without service routing. You can implement service routing without service discovery \(even though its implementation is more difficult\).
 
-在图1.9里，服务发现和服务路由。但是，这两种模式是互相独立的。例如，我们可以只实现服务发现，而不用实现服务路由。你可以实现服务路由，但不实现服务发现（虽然服务路由的实现跟难一些）。
+在图1.9里，服务发现和服务路由好像在它们之间有着硬编码的地方。但是，这两种模式是互相独立的。例如，我们可以只实现服务发现，而不用实现服务路由。你可以实现服务路由，但不实现服务发现（虽然服务路由的实现跟难一些）。
 
