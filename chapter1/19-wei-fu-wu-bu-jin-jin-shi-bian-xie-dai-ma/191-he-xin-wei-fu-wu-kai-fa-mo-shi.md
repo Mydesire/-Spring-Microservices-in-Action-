@@ -8,6 +8,8 @@ The core development microservice development pattern addresses the basics of bu
 
 **Figure 1.8** When designing your microservice, you have to think about how the service will be consumed and communicated with.
 
+**图1.8 **在设计微服务时，你必须要考虑清楚服务将被如何消费以及如何
+
 _Service granularity_—How do you approach decomposing a business domain down into microservices so that each microservice has the right level of responsibility? Making a service too coarse-grained with responsibilities that overlap into different business problems domains makes the service difficult to maintain and change over time. Making the service too fine-grained increases the overall complexity of the application and turns the service into a “dumb” data abstraction layer with no logic except for that needed to access the data store. I cover service granularity in chapter 2.
 
 _Communication protocols_—How will developers communicate with your service? Do you use XML \(Extensible Markup Language\), JSON \(JavaScript Object Notation\), or a binary protocol such as Thrift to send data back and forth your microservices? We’ll go into why JSON is the ideal choice for microservices and has become the most common choice for sending and receiving data to microservices. I cover communication protocols in chapter 2.
