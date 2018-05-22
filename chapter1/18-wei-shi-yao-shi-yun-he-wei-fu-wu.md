@@ -15,7 +15,8 @@ As a developer writing a microservice, sooner or later you’re going to have to
 作为一个编写微服务的开发人员，迟早你都要决定你的服务部署在哪里，有下面几种选择：
 
 * 物理服务器——虽然你可以在物理机上构建并部署微服务，但没有几个组织会这么做，因为物理机会有一些限制。你无法快速提高物理机的容量，而且如果你想在多台物理机上进行微服务横向扩展时，这种方式会变得极其昂贵。
-* 虚拟机镜像——
+* 虚拟机镜像——使用微服务的一大好处是，可以通过快速启动和关闭微服务实例来响应扩展性要求和服务失败事件。虚拟机是主流云提供商的核心和灵魂。一个微服务可以在一个虚拟机里进行打包，多个服务实例可以在IaaS私有或公有云里进行快速部署。
+* 虚拟容器——虚拟容器是将微服务部署在虚拟机镜像上这种方式的一种很自然的扩展。许多开发者将他们的服务部署成Docker镜像（或者类似的容器技术）到云上，而不是将服务部署到一个完整的虚拟机上。多个虚拟容器在一台虚拟机上运行；通过使用虚拟容器，你可以将单台虚拟机分离成一系列自包含的进程，这些进程共享相同的虚拟机镜像。
 
 The advantage of cloud-based microservices centers around the concept of elasticity. Cloud service providers allow you to quickly spin up new virtual machines and contain- ers in a matter of minutes. If your capacity needs for your services drop, you can spin down virtual servers without incurring any additional costs. Using a cloud provider to deploy your microservices gives you significantly more horizontal scalability \(adding more servers and service instances\) for your applications. Server elasticity also means that your applications can be more resilient. If one of your microservices is having prob- lems and is falling over, spinning up new service instances can you keep your applica- tion alive long enough for your development team to gracefully resolve the issue.
 
