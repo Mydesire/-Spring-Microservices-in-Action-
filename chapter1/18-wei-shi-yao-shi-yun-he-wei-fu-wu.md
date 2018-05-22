@@ -48,7 +48,7 @@ For this book, all the microservices and corresponding service infrastructure wi
 >
 > An IaaS approach, while more work, is portable across multiple cloud providers and allows us to reach a wider audience with our material. Personally, I’ve found that PaaS-based cloud solutions can allow you to quickly jump start your development effort, but once your application reaches enough microservices, you start to need the flexibility the IaaS style of cloud development provides.
 >
-> IaaS方式虽然需要做更多的工作，但可以在多个平台之间进行移植，而且允许我们的产品覆盖更多的用户。个人观点是，我发现基于PaaS的云解决方案虽然允许你可以快速启动
+> IaaS方式虽然需要做更多的工作，但可以在多个平台之间进行移植，而且允许我们的产品覆盖更多的用户。个人观点是，我发现基于PaaS的云解决方案虽然允许你可以快速启动你的开发工作，但一旦你的应用的微服务的量上来时，你就开始需要IaaS方式的云开发所能带给你的灵活性了。
 >
 > Earlier in the chapter, I mentioned new cloud computing platforms such as Function as a Service \(FaaS\) and Container as a Service \(CaaS\). If you’re not careful, FaaS- based platforms can lock your code into a cloud vendor platform because your code is deployed to a vendor-specific runtime engine. With a FaaS-based model, you might be writing your service using a general programming language \(Java, Python, JavaScript, and so on\), but you’re still tying yourself heavily to the underlying vendor APIs and runtime engine that your function will be deployed to.
 
