@@ -6,6 +6,8 @@
 
 While the concepts around building individual microservices are easy to understand, running and supporting a robust microservice application \(especially when running in the cloud\) involves more than writing the code for the service. Writing a robust service includes considering several topics. Figure 1.7 highlights these topics.
 
+虽然关于构建单独微服务的概念很容易理解，但运行和支撑一个健壮的微服务应用（尤其是当其运行在云上时）则不仅仅是
+
 Let’s walk through the items in figure 1.7 in more detail:
 
 _Right-sized_—How do you ensure that your microservices are properly sized so that you don’t have a microservice take on too much responsibility? Remember, properly sized, a service allows you to quickly make changes to an application and reduces the overall risk of an outage to the entire application.
