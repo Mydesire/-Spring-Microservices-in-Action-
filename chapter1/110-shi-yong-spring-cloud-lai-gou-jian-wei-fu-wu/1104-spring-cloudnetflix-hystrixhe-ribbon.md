@@ -10,3 +10,5 @@ Using the Netflix Hystrix libraries, you can quickly implement service client re
 
 While the Netflix Ribbon project simplifies integrating with service discovery agents such as Eureka, it also provides client-side load-balancing of service calls from a service consumer. This makes it possible for a client to continue making service calls even if the service discovery agent is temporarily unavailable.
 
+虽然Netflix的Ribbon项目简化了
+
