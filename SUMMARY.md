@@ -25,4 +25,5 @@
     * [1.10.8 Spring Cloud Security](chapter1/110-shi-yong-spring-cloud-lai-gou-jian-wei-fu-wu/1108-spring-cloud-security.md)
     * [1.10.9 关于服务供应](chapter1/110-shi-yong-spring-cloud-lai-gou-jian-wei-fu-wu/1109-guan-yu-fu-wu-gong-ying.md)
   * [1.11 Spring Cloud例子](chapter1/111-spring-cloudli-zi.md)
+  * [1.12 确保我们的例子是相关的](chapter1/112-que-bao-wo-men-de-li-zi-shi-xiang-guan-de.md)
 
