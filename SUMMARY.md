@@ -27,4 +27,5 @@
   * [1.11 Spring Cloud例子](chapter1/111-spring-cloudli-zi.md)
   * [1.12 确保我们的例子是相关的](chapter1/112-que-bao-wo-men-de-li-zi-shi-xiang-guan-de.md)
   * [1.13 总结](chapter1/113-zong-jie.md)
+* [第2章 使用Spring Boot来构建微服务](di-2-zhang-shi-yong-spring-boot-lai-gou-jian-wei-fu-wu.md)
 
