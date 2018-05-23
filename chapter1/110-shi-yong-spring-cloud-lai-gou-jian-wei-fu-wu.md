@@ -18,5 +18,7 @@ Figure 1.14 maps the patterns listed in the previous section to the Spring Cloud
 
 Let’s walk through these technologies in greater detail.
 
-接下来让我们详细看看这些技术。![](/assets/figure1.14.png)
+接下来让我们详细看看这些技术。![](/assets/figure1.14.png)**Figure 1.14** You can map the technologies you’re going to use directly to the microservice patterns we’ve explored so far in this chapter.
+
+图1.14 你可以直接把这些即将用到的技术与我们到目前为止探索过的模式做个映射。
 
