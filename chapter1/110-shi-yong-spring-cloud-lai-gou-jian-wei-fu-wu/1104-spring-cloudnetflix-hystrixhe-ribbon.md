@@ -1,6 +1,8 @@
 ### 1.10.4 Spring Cloud/Netflix Hystrix和Ribbon
 
-Spring Cloud heavily integrates with Netflix open source projects. For microservice client resiliency patterns, Spring Cloud wraps the Netflix Hystrix libraries \(https://github.com/Netflix/Hystrix\) and Ribbon project \(https://github.com/Netflix/Ribbon\) and makes using them from within your own microservices trivial to implement.
+Spring Cloud heavily integrates with Netflix open source projects. For microservice client resiliency patterns, Spring Cloud wraps the Netflix Hystrix libraries \([https://github.com/Netflix/Hystrix\](https://github.com/Netflix/Hystrix\)\) and Ribbon project \([https://github.com/Netflix/Ribbon\](https://github.com/Netflix/Ribbon\)\) and makes using them from within your own microservices trivial to implement.
+
+Spring Cloud与Netflix开源项目进行了深度整合。对于微服务弹性模式，Spring Cloud包装了Netflix的Hystrix库（[https://github.com/Netflix/Hystrix](https://github.com/Netflix/Hystrix\)）以及Ribbon项目（[https://github.com/Netflix/Ribbon](https://github.com/Netflix/Ribbon\)），
 
 Using the Netflix Hystrix libraries, you can quickly implement service client resiliency patterns such as the circuit breaker and bulkhead patterns.
 
