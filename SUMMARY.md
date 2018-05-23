@@ -19,4 +19,5 @@
     * [1.10.2 Spring Cloud Config](chapter1/110-shi-yong-spring-cloud-lai-gou-jian-wei-fu-wu/1102-spring-cloud-config.md)
     * [1.10.3 Spring Cloud service discovery](chapter1/110-shi-yong-spring-cloud-lai-gou-jian-wei-fu-wu/1103-spring-cloud-service-discovery.md)
     * [1.10.4 Spring Cloud/Netflix Hystrix和Ribbon](chapter1/110-shi-yong-spring-cloud-lai-gou-jian-wei-fu-wu/1104-spring-cloudnetflix-hystrixhe-ribbon.md)
+    * [1.10.5 Spring Cloud/Netflix Zuul](chapter1/110-shi-yong-spring-cloud-lai-gou-jian-wei-fu-wu/1105-spring-cloudnetflix-zuul.md)
 
