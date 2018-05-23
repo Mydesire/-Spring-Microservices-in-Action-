@@ -21,4 +21,5 @@
     * [1.10.4 Spring Cloud/Netflix Hystrix和Ribbon](chapter1/110-shi-yong-spring-cloud-lai-gou-jian-wei-fu-wu/1104-spring-cloudnetflix-hystrixhe-ribbon.md)
     * [1.10.5 Spring Cloud/Netflix Zuul](chapter1/110-shi-yong-spring-cloud-lai-gou-jian-wei-fu-wu/1105-spring-cloudnetflix-zuul.md)
     * [1.10.6 Spring Cloud Stream](chapter1/110-shi-yong-spring-cloud-lai-gou-jian-wei-fu-wu/1106-spring-cloud-stream.md)
+    * [1.10.7 Spring Cloud Sleuth](chapter1/110-shi-yong-spring-cloud-lai-gou-jian-wei-fu-wu/1107-spring-cloud-sleuth.md)
 
