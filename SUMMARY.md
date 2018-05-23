@@ -17,4 +17,5 @@
   * [1.10 使用Spring Cloud来构建微服务](chapter1/110-shi-yong-spring-cloud-lai-gou-jian-wei-fu-wu.md)
     * [1.10.1 Spring Boot](chapter1/110-shi-yong-spring-cloud-lai-gou-jian-wei-fu-wu/1101-spring-boot.md)
     * [1.10.2 Spring Cloud Config](chapter1/110-shi-yong-spring-cloud-lai-gou-jian-wei-fu-wu/1102-spring-cloud-config.md)
+    * [1.10.3 Spring Cloud service discovery](chapter1/110-shi-yong-spring-cloud-lai-gou-jian-wei-fu-wu/1103-spring-cloud-service-discovery.md)
 
