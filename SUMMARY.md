@@ -23,4 +23,5 @@
     * [1.10.6 Spring Cloud Stream](chapter1/110-shi-yong-spring-cloud-lai-gou-jian-wei-fu-wu/1106-spring-cloud-stream.md)
     * [1.10.7 Spring Cloud Sleuth](chapter1/110-shi-yong-spring-cloud-lai-gou-jian-wei-fu-wu/1107-spring-cloud-sleuth.md)
     * [1.10.8 Spring Cloud Security](chapter1/110-shi-yong-spring-cloud-lai-gou-jian-wei-fu-wu/1108-spring-cloud-security.md)
+    * [1.10.9 关于服务供应](chapter1/110-shi-yong-spring-cloud-lai-gou-jian-wei-fu-wu/1109-guan-yu-fu-wu-gong-ying.md)
 
