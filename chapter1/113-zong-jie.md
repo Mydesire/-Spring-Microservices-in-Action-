@@ -14,9 +14,15 @@
 
 * While microservices are language-agnostic, we introduced two Spring frameworks that significantly help in building microservices: Spring Boot and Spring Cloud.
 
+* 虽然微服务是与语言无关的，但我们介绍了两个对构建微服务能提供显著帮助的Spring框架：Spring Boot和Spring Cloud。
+
 * Spring Boot is used to simplify the building of REST-based/JSON microservices. Its goal is to make it possible for you to build microservices quickly with nothing more than a few annotations.
 
+* Spring  Boot用来简化构建基于REST/JSON的微服务的过程。它的目的是让你可以用几个注解就可以快速构建出微服务。
+
 * Spring Cloud is a collection of open source technologies from companies such as Netflix and HashiCorp that have been “wrapped” with Spring annotations to significantly simplify the setup and configuration of these services.
+
+* Spring Cloud是一系列开源技术的集合，这些技术来自几个公司，如Netflix和HashiCorp，并通过一些Spring注解对它们进行了包装，使得服务的设置和配置都被显著简化。
 
 
 
