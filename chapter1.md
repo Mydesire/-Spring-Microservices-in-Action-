@@ -1,6 +1,6 @@
 # 欢迎使用Spring Cloud
 
-> This chapter covers
+> **This chapter covers**
 >
 > * Understanding microservices and why companies use them
 >
@@ -14,7 +14,7 @@
 >
 > * Using Spring Boot and Spring Cloud in microservice development
 >
-> 本章包含
+> **本章包含**
 >
 > * 理解微服务以及企业为什么要用微服务
 > * 使用Spring，Spring Boot，和Spring Cloud来构建微服务
