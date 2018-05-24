@@ -31,7 +31,9 @@ These mammoth projects tended to follow large, traditional waterfall development
 
 这些庞大的项目总是遵循大型传统的瀑布式开发方法，这些方法坚持所有的应用需求和设计要在项目的开始就定义好。于是，很多重点就被放到了让软件规格正确这点上来了，以致几乎没有什么余地来满足性的业务需求，或者重构并从开发的早期出现的错误中学习。
 
-The reality, though, is that software development isn’t a linear process of definition and execution, but rather an evolutionary one where it takes several iterations of com- municating with, learning from, and delivering to the customer before the development team truly understands the problem at hand.
+The reality, though, is that software development isn’t a linear process of definition and execution, but rather an evolutionary one where it takes several iterations of communicating with, learning from, and delivering to the customer before the development team truly understands the problem at hand.
+
+然而，事实却是，软件开发并不是定义后就执行这么一个流水行过程，而是一个演化的过程，在开发团队真正理解手里的问题前，需要与客户进行多次沟通，学习，并交付一些东西。
 
 Compounding the challenges of using traditional waterfall methodologies is that many times the granularity of the software artifacts being delivered in these projects are
 
