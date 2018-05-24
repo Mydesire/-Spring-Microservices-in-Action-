@@ -25,6 +25,8 @@
 
 The history of software development is littered with the tales of large development projects that after an investment of millions of dollars and hundreds of thousands of software developer hours, and with many of the best and brightest minds in the industry working on them, somehow never managed to deliver anything of value to their customers and literally collapsed under their own complexity and weight.
 
+在软件开发的历史里，有很多大型开发项目的故事。在这些项目的背后，投入了几百万美金以及软件开发人员成百上千个小时，而且在这些人员里面还不乏行业里最优秀最聪明的头脑，但不知怎么的，总是无法向他们的客户交付任何有价值的东西，却被他们自身的复杂和笨重给压垮了。
+
 These mammoth projects tended to follow large, traditional waterfall develop- ment methodologies that insisted that all the application’s requirements and design be defined at the beginning of the project. So much emphasis was placed on getting all the specifications for the software “correct” that there was little leeway to meet new business requirements, or refactor and learn from mistakes made in the early stages of development.
 
 The reality, though, is that software development isn’t a linear process of definition and execution, but rather an evolutionary one where it takes several iterations of com- municating with, learning from, and delivering to the customer before the development team truly understands the problem at hand.
