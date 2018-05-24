@@ -47,7 +47,7 @@ Compounding the challenges of using traditional waterfall methodologies is that 
 使用传统瀑布式方法的挑战是，很多时候这些项目交付的软件的粒度具有以下几个特点
 
 * 紧耦合——业务逻辑调用发生在编程语言级别，而不是实现中立的协议，如SOAP和REST。这会大大增加这么一个风险，那就是，即使某个应用组件发生了个小的改变，都会破坏应用的其它部分并引发新的bug。
-* 泄露——很多大型应用软件管理着不同类型的数据
+* 泄露——很多大型应用软件管理着不同类型的数据。
 
 A microservice-based architecture takes a different approach to delivering functional- ity. Specifically, microservice-based architectures have these characteristics:
 
