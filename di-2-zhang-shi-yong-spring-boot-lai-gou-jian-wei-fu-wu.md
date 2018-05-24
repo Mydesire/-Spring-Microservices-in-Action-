@@ -37,16 +37,17 @@ The reality, though, is that software development isn’t a linear process of de
 
 Compounding the challenges of using traditional waterfall methodologies is that many times the granularity of the software artifacts being delivered in these projects are
 
-* _Tightly coupled_—The invocation of business logic happens at the programming-language level instead of through implementation-neutral protocols such as SOAP and REST. This greatly increases the chance that even a small change to an application component can break other pieces of the application and intro- duce new bugs.
+* _Tightly coupled_—The invocation of business logic happens at the programming-language level instead of through implementation-neutral protocols such as SOAP and REST. This greatly increases the chance that even a small change to an application component can break other pieces of the application and introduce new bugs.
 
-* _Leaky_—Most large software applications manage different types of data. For instance, a customer relationship management \(CRM\) application might man- age customer, sales, and product information. In a traditional model, this data is kept in the same data model and within the same data store. Even though there are obvious boundaries between the data, too often it’s tempting for a team from one domain to directly access the data that belongs to another team.  
+* _Leaky_—Most large software applications manage different types of data. For instance, a customer relationship management \(CRM\) application might manage customer, sales, and product information. In a traditional model, this data is kept in the same data model and within the same data store. Even though there are obvious boundaries between the data, too often it’s tempting for a team from one domain to directly access the data that belongs to another team.  
   This easy access to data creates hidden dependencies and allows implementation details of one component’s internal data structures to leak through the entire application. Even small changes to a single database table can require a significant number of code changes and regression-testing throughout the entire application.
 
 * _Monolithic_—Because most of the application components for a traditional appli- cation reside in a single code base that’s shared across multiple teams, any time a change to the code is made, the entire application has to be recompiled, rerun through an entire testing cycle, and redeployed. Even small changes to the application’s code base, whether they’re new customer requirements or bug fixes, become expensive and time-consuming, and large changes become nearly impossible to do in a timely fashion.
 
 使用传统瀑布式方法的挑战是，很多时候这些项目交付的软件的粒度具有以下几个特点
 
-* 紧耦合——
+* 紧耦合——业务逻辑调用发生在编程语言级别，而不是实现中立的协议，如SOAP和REST。这会大大增加这么一个风险，那就是，即使某个应用组件发生了个小的改变，都会破坏应用的其它部分并引发新的bug。
+* 泄露——很多大型应用软件管理着不同类型的数据
 
 A microservice-based architecture takes a different approach to delivering functional- ity. Specifically, microservice-based architectures have these characteristics:
 
