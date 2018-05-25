@@ -54,7 +54,7 @@ A microservice-based architecture takes a different approach to delivering funct
 
 * _Constrained_—Microservices have a single set of responsibilities and are narrow in scope. Microservices embrace the UNIX philosophy that an application is nothing more than a collection of services where each service does one thing and does that one thing really well.
 
-* _Loosely coupled_—A microservice-based application is a collection of small ser- vices that only interact with one another through a non–implementation spe- cific interface using a non-proprietary invocation protocol \(for example, HTTP and REST\). As long as the interface for the service doesn’t change, the owners of the microservice have more freedom to make modifications to the service than in a traditional application architecture.
+* _Loosely coupled_—A microservice-based application is a collection of small ser- vices that only interact with one another through a non–implementation specific interface using a non-proprietary invocation protocol \(for example, HTTP and REST\). As long as the interface for the service doesn’t change, the owners of the microservice have more freedom to make modifications to the service than in a traditional application architecture.
 
 * _Abstracted_—Microservices completely own their data structures and data sources. Data owned by a microservice can only be modified by that service. Access control to the database holding the microservice’s data can be locked down to only allow the service access to it.
 
@@ -62,7 +62,8 @@ A microservice-based architecture takes a different approach to delivering funct
 
 基于微服务的架构采取了一个不同的方式来交付功能。尤其是，基于微服务的架构有以下几个特点：
 
-* 约束性——微服务
+* 约束性——微服务划分了一系列的责任，而且每个责任都是窄范围的。微服务吸纳了UNIX的设计哲学，即，一个应用由一系列服务组成，而且每个服务只做一件事，该服务把它负责的事情做到最好。
+* 松耦合——
 
 Why are these microservice architecture attributes important to cloud-based develop- ment? Cloud-based applications in general have the following:
 
