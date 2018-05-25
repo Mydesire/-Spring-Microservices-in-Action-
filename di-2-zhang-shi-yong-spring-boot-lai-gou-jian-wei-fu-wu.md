@@ -60,7 +60,9 @@ A microservice-based architecture takes a different approach to delivering funct
 
 * _Independent_—Each microservice in a microservice application can be compiled and deployed independently of the other services used in the application. This means changes can be isolated and tested much more easily than with a more heavily interdependent, monolithic application.
 
-基于微服务的架构采取了一个不同的方式来交付功能。
+基于微服务的架构采取了一个不同的方式来交付功能。尤其是，基于微服务的架构有以下几个特点：
+
+* 约束性——微服务
 
 Why are these microservice architecture attributes important to cloud-based develop- ment? Cloud-based applications in general have the following:
 
