@@ -50,7 +50,7 @@ Compounding the challenges of using traditional waterfall methodologies is that 
 * 泄露——很多大型应用软件管理着不同类型的数据。例如，一个客户关系管理（customer relation management，CRM）应用可能会管理着用户，销售，以及产品的信息。在传统的模式下，这些数据用相同的数据模型保存着，并存储在相同的数据仓库里。即便数据间有着明显的界限，也总是出现某个域的团队试图直接访问属于另一个团队的域的数据的现象。
 * 单体——对于一个传统应用，由于其大多数的应用组件都使用多个团队共享的一个代码库，所以，无论何时修改了代码，整个应用就必须被重新编译，重新运行一遍整个测试周期，以及重新部署。即使只是对应用的代码库做出一点小小的改变，无论是新的客户需求或者bug修复，其代价都是高昂的，而且很耗时，大的变化更是无法在短时间内做到。
 
-A microservice-based architecture takes a different approach to delivering functional- ity. Specifically, microservice-based architectures have these characteristics:
+A microservice-based architecture takes a different approach to delivering functionality. Specifically, microservice-based architectures have these characteristics:
 
 * _Constrained_—Microservices have a single set of responsibilities and are narrow in scope. Microservices embrace the UNIX philosophy that an application is nothing more than a collection of services where each service does one thing and does that one thing really well.
 
@@ -59,6 +59,8 @@ A microservice-based architecture takes a different approach to delivering funct
 * _Abstracted_—Microservices completely own their data structures and data sources. Data owned by a microservice can only be modified by that service. Access control to the database holding the microservice’s data can be locked down to only allow the service access to it.
 
 * _Independent_—Each microservice in a microservice application can be compiled and deployed independently of the other services used in the application. This means changes can be isolated and tested much more easily than with a more heavily interdependent, monolithic application.
+
+基于微服务的架构采取了一个不同的方式来交付功能。
 
 Why are these microservice architecture attributes important to cloud-based develop- ment? Cloud-based applications in general have the following:
 
