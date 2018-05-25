@@ -42,12 +42,13 @@ Compounding the challenges of using traditional waterfall methodologies is that 
 * _Leaky_—Most large software applications manage different types of data. For instance, a customer relationship management \(CRM\) application might manage customer, sales, and product information. In a traditional model, this data is kept in the same data model and within the same data store. Even though there are obvious boundaries between the data, too often it’s tempting for a team from one domain to directly access the data that belongs to another team.  
   This easy access to data creates hidden dependencies and allows implementation details of one component’s internal data structures to leak through the entire application. Even small changes to a single database table can require a significant number of code changes and regression-testing throughout the entire application.
 
-* _Monolithic_—Because most of the application components for a traditional appli- cation reside in a single code base that’s shared across multiple teams, any time a change to the code is made, the entire application has to be recompiled, rerun through an entire testing cycle, and redeployed. Even small changes to the application’s code base, whether they’re new customer requirements or bug fixes, become expensive and time-consuming, and large changes become nearly impossible to do in a timely fashion.
+* _Monolithic_—Because most of the application components for a traditional application reside in a single code base that’s shared across multiple teams, any time a change to the code is made, the entire application has to be recompiled, rerun through an entire testing cycle, and redeployed. Even small changes to the application’s code base, whether they’re new customer requirements or bug fixes, become expensive and time-consuming, and large changes become nearly impossible to do in a timely fashion.
 
 使用传统瀑布式方法的挑战是，很多时候这些项目交付的软件的粒度具有以下几个特点
 
 * 紧耦合——业务逻辑调用发生在编程语言级别，而不是实现中立的协议，如SOAP和REST。这会大大增加这么一个风险，那就是，即使某个应用组件发生了个小的改变，都会破坏应用的其它部分并引发新的bug。
-* 泄露——很多大型应用软件管理着不同类型的数据。例如，一个客户关系管理（customer relation management，CRM）应用可能会管理着用户，销售，以及产品的信息。在传统的模式下，这些数据用相同的数据模型保存着，并存储在相同的数据仓库里。即便数据间有着明显的界限，
+* 泄露——很多大型应用软件管理着不同类型的数据。例如，一个客户关系管理（customer relation management，CRM）应用可能会管理着用户，销售，以及产品的信息。在传统的模式下，这些数据用相同的数据模型保存着，并存储在相同的数据仓库里。即便数据间有着明显的界限，也总是出现某个域的团队试图直接访问属于另一个团队的域的数据的现象。
+* 单体——
 
 A microservice-based architecture takes a different approach to delivering functional- ity. Specifically, microservice-based architectures have these characteristics:
 
