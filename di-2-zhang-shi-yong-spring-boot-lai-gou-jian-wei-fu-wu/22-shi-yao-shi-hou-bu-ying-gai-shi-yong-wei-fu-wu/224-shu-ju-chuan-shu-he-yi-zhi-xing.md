@@ -10,3 +10,5 @@ If your applications need to do complex data aggregation or transformation acros
 
 Also keep in mind that no standard exists for performing transactions across microservices. If you need transaction management, you will need to build that logic yourself. In addition, as you’ll see in chapter 7, microservices can communicate amongst themselves by using messages. Messaging introduces latency in data updates. Your applications need to handle eventual consistency where updates that are applied to your data might not immediately appear.
 
+还有要记住的一点是，对于跨微服务之间的事务，目前没有现存的标准。如果你需要事务管理，那么你需要自己建一套逻辑。另外，就像你将在第7章里看到的，微服务之间通过消息机制进行交流。在数据更新时，消息机制会导致延迟。你的应用需要
+
