@@ -34,4 +34,5 @@
     * [2.2.2 服务器蔓延](di-2-zhang-shi-yong-spring-boot-lai-gou-jian-wei-fu-wu/22-shi-yao-shi-hou-bu-ying-gai-shi-yong-wei-fu-wu/222-fu-wu-qi-man-yan.md)
     * [2.2.3 应用的类型](di-2-zhang-shi-yong-spring-boot-lai-gou-jian-wei-fu-wu/22-shi-yao-shi-hou-bu-ying-gai-shi-yong-wei-fu-wu/223-ying-yong-de-lei-xing.md)
     * [2.2.4 数据传输和一致性](di-2-zhang-shi-yong-spring-boot-lai-gou-jian-wei-fu-wu/22-shi-yao-shi-hou-bu-ying-gai-shi-yong-wei-fu-wu/224-shu-ju-chuan-shu-he-yi-zhi-xing.md)
+  * [2.3 开发者的故事：使用Spring Boot和Java来构建微服务](di-2-zhang-shi-yong-spring-boot-lai-gou-jian-wei-fu-wu/23-kai-fa-zhe-de-gu-shi-ff1ashi-yong-spring-boot-he-java-lai-gou-jian-wei-fu-wu.md)
 
