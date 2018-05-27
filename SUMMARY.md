@@ -29,4 +29,5 @@
   * [1.13 总结](chapter1/113-zong-jie.md)
 * [第2章 使用Spring Boot来构建微服务](di-2-zhang-shi-yong-spring-boot-lai-gou-jian-wei-fu-wu.md)
   * [2.1 架构师的故事：设计微服务架构](di-2-zhang-shi-yong-spring-boot-lai-gou-jian-wei-fu-wu/21-jia-gou-li-shi-ff1a-she-ji-wei-fu-wu-jia-gou.md)
+  * [2.2 什么时候不应该使用微服务](di-2-zhang-shi-yong-spring-boot-lai-gou-jian-wei-fu-wu/22-shi-yao-shi-hou-bu-ying-gai-shi-yong-wei-fu-wu.md)
 
