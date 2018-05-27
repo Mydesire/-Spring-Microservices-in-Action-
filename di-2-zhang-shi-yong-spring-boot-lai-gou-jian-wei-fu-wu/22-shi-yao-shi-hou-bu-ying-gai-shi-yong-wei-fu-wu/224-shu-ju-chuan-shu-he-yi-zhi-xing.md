@@ -6,7 +6,7 @@ As you begin looking at microservices, you need to think through the data usage 
 
 If your applications need to do complex data aggregation or transformation across multiple sources of data, the distributed nature of microservices will make this work difficult. Your microservices will invariably take on too much responsibility and can also become vulnerable to performance problems.
 
-
+如果你的应用需要做一些复杂的数据符合操作或者跨多数据源的传输，那么微服务的分布式的天性可能会使得这些工作变得困难。你的微服务将总是肩负过多的责任，而且
 
 Also keep in mind that no standard exists for performing transactions across microservices. If you need transaction management, you will need to build that logic yourself. In addition, as you’ll see in chapter 7, microservices can communicate amongst themselves by using messages. Messaging introduces latency in data updates. Your applications need to handle eventual consistency where updates that are applied to your data might not immediately appear.
 
