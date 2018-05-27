@@ -31,4 +31,5 @@
   * [2.1 架构师的故事：设计微服务架构](di-2-zhang-shi-yong-spring-boot-lai-gou-jian-wei-fu-wu/21-jia-gou-li-shi-ff1a-she-ji-wei-fu-wu-jia-gou.md)
   * [2.2 什么时候不应该使用微服务](di-2-zhang-shi-yong-spring-boot-lai-gou-jian-wei-fu-wu/22-shi-yao-shi-hou-bu-ying-gai-shi-yong-wei-fu-wu.md)
     * [2.2.1 构建分布式系统的复杂性](di-2-zhang-shi-yong-spring-boot-lai-gou-jian-wei-fu-wu/22-shi-yao-shi-hou-bu-ying-gai-shi-yong-wei-fu-wu/221-gou-jian-fen-bu-shi-xi-tong-de-fu-za-xing.md)
+    * [2.2.2 服务器蔓延](di-2-zhang-shi-yong-spring-boot-lai-gou-jian-wei-fu-wu/22-shi-yao-shi-hou-bu-ying-gai-shi-yong-wei-fu-wu/222-fu-wu-qi-man-yan.md)
 
