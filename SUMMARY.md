@@ -32,4 +32,5 @@
   * [2.2 什么时候不应该使用微服务](di-2-zhang-shi-yong-spring-boot-lai-gou-jian-wei-fu-wu/22-shi-yao-shi-hou-bu-ying-gai-shi-yong-wei-fu-wu.md)
     * [2.2.1 构建分布式系统的复杂性](di-2-zhang-shi-yong-spring-boot-lai-gou-jian-wei-fu-wu/22-shi-yao-shi-hou-bu-ying-gai-shi-yong-wei-fu-wu/221-gou-jian-fen-bu-shi-xi-tong-de-fu-za-xing.md)
     * [2.2.2 服务器蔓延](di-2-zhang-shi-yong-spring-boot-lai-gou-jian-wei-fu-wu/22-shi-yao-shi-hou-bu-ying-gai-shi-yong-wei-fu-wu/222-fu-wu-qi-man-yan.md)
+    * [2.2.3 应用的类型](di-2-zhang-shi-yong-spring-boot-lai-gou-jian-wei-fu-wu/22-shi-yao-shi-hou-bu-ying-gai-shi-yong-wei-fu-wu/223-ying-yong-de-lei-xing.md)
 
