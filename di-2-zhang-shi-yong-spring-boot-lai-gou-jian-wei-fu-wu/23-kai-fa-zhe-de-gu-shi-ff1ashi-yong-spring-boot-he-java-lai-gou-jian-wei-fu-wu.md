@@ -1,4 +1,18 @@
 ### 2.3 开发者的故事：使用Spring Boot和Java来构建微服务
 
+When building a microservice, moving from the conceptual space to the implementation space requires a shift in perspective. Specifically, as a developer, you need to establish a basic pattern of how each of the microservices in your application is going to be implemented. While each service is going to be unique, you want to make sure that you’re using a framework that removes boilerplate code and that each piece of your microservice is laid out in the same consistent fashion.
+
+在构建微服务时，从概念到实现的需要观点上的转变。特别地，作为一个开发人员，你需要
+
+In this section, we’ll explore the developer’s priorities in building the licensing microservice from your EagleEye domain model. Your licensing service is going to be written using Spring Boot. Spring Boot is an abstraction layer over the standard Spring libraries that allows developers to quickly build Groovy- and Java-based web applications and microservices with significantly less ceremony and configuration than a full-blown Spring application.
+
+For your licensing service example, you’ll use Java as your core programming language and Apache Maven as your build tool.
+
+Over the next several sections you’re going to
+
+1. Build the basic skeleton of the microservice and a Maven script to build the application
+2. Implement a Spring bootstrap class that will start the Spring container for the microservice and initiate the kick-off of any initialization work for the class
+3. Implement a Spring Boot controller class for mapping an endpoint to expose the endpoints of the service
+
 
 
