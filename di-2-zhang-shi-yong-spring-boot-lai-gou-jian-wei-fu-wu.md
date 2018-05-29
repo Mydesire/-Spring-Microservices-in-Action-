@@ -63,7 +63,7 @@ A microservice-based architecture takes a different approach to delivering funct
 基于微服务的架构采取了一个不同的方式来交付功能。尤其是，基于微服务的架构有以下几个特点：
 
 * 约束性——微服务划分了一系列的责任，而且每个责任都是窄范围的。微服务吸纳了UNIX的设计哲学，即，一个应用由一系列服务组成，而且每个服务只做一件事，该服务把它负责的事情做到最好。
-* 松耦合——基于微服务的应用
+* 松耦合——基于微服务的应用由一组小的服务组成，
 
 Why are these microservice architecture attributes important to cloud-based develop- ment? Cloud-based applications in general have the following:
 
