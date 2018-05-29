@@ -20,5 +20,9 @@ Over the next several sections you’re going to
 2. Implement a Spring bootstrap class that will start the Spring container for the microservice and initiate the kick-off of any initialization work for the class
 3. Implement a Spring Boot controller class for mapping an endpoint to expose the endpoints of the service
 
+在接下来的几个章节里，我们将进行以下几个步骤
+
+1. 构建微服务的基本框架，并编写Maven脚本来构建应用
+2. 
 
 
