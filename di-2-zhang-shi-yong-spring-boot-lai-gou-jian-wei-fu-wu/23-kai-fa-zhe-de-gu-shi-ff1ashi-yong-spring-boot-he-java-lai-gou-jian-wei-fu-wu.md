@@ -8,7 +8,7 @@ When building a microservice, moving from the conceptual space to the implementa
 
 In this section, we’ll explore the developer’s priorities in building the licensing microservice from your EagleEye domain model. Your licensing service is going to be written using Spring Boot. Spring Boot is an abstraction layer over the standard Spring libraries that allows developers to quickly build Groovy- and Java-based web applications and microservices with significantly less ceremony and configuration than a full-blown Spring application.
 
-在这一节里，我们将探索，依据鹰眼域模型（Eagle domain model）来构建授权微服务（licensing microservice）时，开发人员的优先级顺序。授权微服务将采用Spring Boot来编写。
+在这一节里，我们将探索，依据鹰眼域模型（Eagle domain model）来构建授权微服务（licensing microservice）时，开发人员的优先级顺序。授权微服务将采用Spring Boot来编写。Spring Boot是位于标准Spring库之上的抽象层，它使得开发人员可以快速构建出基于Groovy和Java的web应用以及微服务，而且，比起传统的Spring应用，Spring Boot所需的仪式和配置少很多。
 
 For your licensing service example, you’ll use Java as your core programming language and Apache Maven as your build tool.
 
