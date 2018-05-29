@@ -12,6 +12,8 @@ In this section, we’ll explore the developer’s priorities in building the li
 
 For your licensing service example, you’ll use Java as your core programming language and Apache Maven as your build tool.
 
+对于授权服务这个例子，我们将采用Java作为核心编程语言，Apache Maven作为构建工具。
+
 Over the next several sections you’re going to
 
 1. Build the basic skeleton of the microservice and a Maven script to build the application
