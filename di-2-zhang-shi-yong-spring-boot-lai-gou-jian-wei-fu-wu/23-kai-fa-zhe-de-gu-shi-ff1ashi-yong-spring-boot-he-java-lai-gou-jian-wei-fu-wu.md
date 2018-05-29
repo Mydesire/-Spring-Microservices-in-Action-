@@ -23,7 +23,8 @@ Over the next several sections you’re going to
 在接下来的几个章节里，我们将进行以下几个步骤
 
 1. 构建微服务的基本框架，并编写Maven脚本来构建应用
-2. 实现一个Spring bootstrap类，
+2. 实现一个Spring bootstrap类，这个类将被用来为微服务启动Spring容器并启动该类的所有初始化工作
+3. 实现一个Spring Boot的controller类，这个类将被用来为暴露服务端点映射一个端点
 
 
 
