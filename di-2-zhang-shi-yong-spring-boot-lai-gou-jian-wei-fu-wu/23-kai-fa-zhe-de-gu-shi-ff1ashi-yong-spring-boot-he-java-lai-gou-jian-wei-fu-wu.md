@@ -4,7 +4,7 @@
 
 When building a microservice, moving from the conceptual space to the implementation space requires a shift in perspective. Specifically, as a developer, you need to establish a basic pattern of how each of the microservices in your application is going to be implemented. While each service is going to be unique, you want to make sure that you’re using a framework that removes boilerplate code and that each piece of your microservice is laid out in the same consistent fashion.
 
-在构建微服务时，从概念到实现的需要观点上的转变。特别地，作为一个开发人员，你需要建立一个关于应用的每个微服务如何实现的基本模式。虽然每个服务都是不同的，但你需要确保
+在构建微服务时，从概念到实现的需要观点上的转变。特别地，作为一个开发人员，你需要建立一个关于应用的每个微服务如何实现的基本模式。虽然每个服务都是不同的，但你需要确保你正在使用的框架帮你移除了模板代码，而且每个微服务的形式是一样的。
 
 In this section, we’ll explore the developer’s priorities in building the licensing microservice from your EagleEye domain model. Your licensing service is going to be written using Spring Boot. Spring Boot is an abstraction layer over the standard Spring libraries that allows developers to quickly build Groovy- and Java-based web applications and microservices with significantly less ceremony and configuration than a full-blown Spring application.
 
