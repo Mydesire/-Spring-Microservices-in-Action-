@@ -30,6 +30,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <packaging>jar</packaging>
     <name>EagleEye Licensing Service</name>
     <description>Licensing Service</description>
+    <!--让Maven包含Spring Boot Starter依赖-->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -37,10 +38,12 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
         <relativePath/>
     </parent>
     <dependencies>
+        <!--让Maven包含Spring Boot web依赖-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+        <!--让Naven包含Spring Actuator依赖-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
