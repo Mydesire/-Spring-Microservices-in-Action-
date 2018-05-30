@@ -12,7 +12,5 @@ As you’ll see shortly, Spring Boot uses annotations to simplify setting up and
 * 一个Spring Bootstrap类，这个类将被Spring Boot用来启动和初始化应用
 * 一个Spring Controller类，这个类将暴露微服务的一些可以被调用的HTTP端点
 
-就像你在接下来将看到的那样，Spring Boot通过使用注解来简化服务的建立和配置过程。
-
-
+就像你在接下来将看到的那样，Spring Boot通过使用注解来简化服务的建立和配置过程。我们将在下面的清单的bootstrap类更清晰地感受到这点。bootstrap类位于src/main/java/com/thoughtmechanix/licenses/Application.java文件里。
 
