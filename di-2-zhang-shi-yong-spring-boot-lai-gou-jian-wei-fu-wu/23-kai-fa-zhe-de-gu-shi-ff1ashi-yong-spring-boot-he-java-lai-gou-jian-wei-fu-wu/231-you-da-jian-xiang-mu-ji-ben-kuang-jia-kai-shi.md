@@ -72,6 +72,8 @@ We won’t go through the entire script in detail, but note a few key areas as w
 
 In parts 2 and 3 of the Maven file, you identify that you’re pulling down the Spring Web and Spring Actuator starter kits. These two projects are at the heart of almost any Spring Boot REST-based service. You’ll find that as you build more functionality into your services, the list of these dependent projects becomes longer.
 
+在Maven文件的第2部分和第3部分里，我们指明了我们将拉取Spring Web和Spring Actuator starter套件。这两个starter是几乎所有基于REST的Spring Boot服务的核心。你将会发现，你在服务里构建越多的功能，这些依赖的清单会随着变得越长。
+
 Also, Spring Source has provided Maven plugins that simplify the build and deployment of the Spring Boot applications. Step 4 tells your Maven build script to install the latest Spring Boot Maven plugin. This plugin contains a number of add-on tasks \(such as spring-boot:run\) that simplify your interaction between Maven and Spring Boot.
 
 Finally, you’ll see a comment that sections of the Maven file have been removed. For the sake of the trees, I didn’t include the Spotify Docker plugins in listing 2.1.
