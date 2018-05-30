@@ -76,7 +76,11 @@ In parts 2 and 3 of the Maven file, you identify that you’re pulling down the 
 
 Also, Spring Source has provided Maven plugins that simplify the build and deployment of the Spring Boot applications. Step 4 tells your Maven build script to install the latest Spring Boot Maven plugin. This plugin contains a number of add-on tasks \(such as spring-boot:run\) that simplify your interaction between Maven and Spring Boot.
 
+另外，Spring Source提供了一些Maven插件，这些插件简化了Spring Boot应用的构建和部署过程。第4步就是让Maven构建脚本安装最新的Spring Boot Maven插件。这个插件包含了一些附件任务（如spring-boot:run），它们简化了Maven和Spring Boot之间的交互。
+
 Finally, you’ll see a comment that sections of the Maven file have been removed. For the sake of the trees, I didn’t include the Spotify Docker plugins in listing 2.1.
+
+最后，你会看到一段注释，里面写着有些东西从Maven文件里移除了。为了与本书目录保持一致，我没有在清单2.1里包含Docker插件。
 
 **NOTE** Every chapter in this book includes Docker files for building and deploying the application as Docker containers. You can find details of how to build these Docker images in the README.md file in the code sections of each chapter.
 
