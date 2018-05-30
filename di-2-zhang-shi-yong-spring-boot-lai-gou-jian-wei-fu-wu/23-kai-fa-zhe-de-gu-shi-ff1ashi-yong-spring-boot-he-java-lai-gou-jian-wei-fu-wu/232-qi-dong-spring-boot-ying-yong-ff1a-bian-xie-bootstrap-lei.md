@@ -47,5 +47,7 @@ Under the covers, the @SpringBootApplication annotation marks the Application cl
 
 The second thing to note is the Application class’s main\(\) method. In the main\(\) method, the SpringApplication.run\(Application.class, args\), the call starts the Spring container and returns a Spring ApplicationContext object. \(You aren’t doing anything with the ApplicationContext, so it isn’t shown in the code.\)
 
+第二个值得注意的地方是Application类的main\(\)方法。在main\(\)方法里，通过调用SpringApplication.run\(Application.class, args\)来启动Spring容器，并且run方法会返回一个Spring ApplicationContext对象。（我们将不对ApplicationContext做任何处理，所以代码里没有展示它。）
+
 The easiest thing to remember about the @SpringBootApplication annotation and the corresponding Application class is that it’s the bootstrap class for the entire microservice. Core initialization logic for the service should be placed in this class.
 
