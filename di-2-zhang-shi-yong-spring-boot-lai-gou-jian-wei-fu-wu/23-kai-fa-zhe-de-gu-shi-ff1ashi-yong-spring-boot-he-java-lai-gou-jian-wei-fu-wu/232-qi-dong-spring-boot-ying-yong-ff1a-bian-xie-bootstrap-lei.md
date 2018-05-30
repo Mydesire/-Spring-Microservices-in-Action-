@@ -39,7 +39,7 @@ The first thing to note in this code is the use of the @SpringBootApplication an
 在上面的代码里，我们首先注意到的是@SpringBootApplication注解。Spring Boot用这个注解来告诉Spring容器该类是Spring要用到的bean的定义的源头。在一个Spring Boot应用里，我们可以通过以下两种方式来定义Spring Bean
 
 1. 用@Component，@Service或@Repository注解标签来注解一个Java类
-2. 用@Configuration标签来注解一个类
+2. 用@Configuration标签来注解一个类，然后用@Bean标签为每一个你想要构建的Spring Bean定义一个构造方法
 
 Under the covers, the @SpringBootApplication annotation marks the Application class in listing 2.2 as a configuration class, then begins auto-scanning all the classes on the Java class path for other Spring Beans.
 
