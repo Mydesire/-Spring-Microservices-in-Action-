@@ -20,59 +20,48 @@ Listing 2.1 Maven pom file for the licensing service（清单2.1 授权微服务
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-<modelVersion>4.0.0</modelVersion>
-<groupId>com.thoughtmechanix</groupId>
-<artifactId>licensing-service</artifactId>
-<version>0.0.1-SNAPSHOT</version>
-<packaging>jar</packaging>
-<name>EagleEye Licensing Service</name>
-<description>Licensing Service</description>
-<parent>
-<groupId>org.springframework.boot</groupId>
-<artifactId>spring-boot-starter-parent</artifactId>
-<version>1.4.4.RELEASE</version>
-<relativePath/>
-</parent>
-<dependencies>
-<dependency>
-<groupId>org.springframework.boot</groupId>
-<artifactId>spring-boot-starter-web</artifactId>
-</dependency>
-<dependency>
-<groupId>org.springframework.boot</groupId>
-<artifactId>spring-boot-starter-actuator</artifactId>
-</dependency>
-</dependencies>
-Listing 2.1 Maven pom file for the licensing service
-Tells Maven to include
-the Spring Boot Starter
-Kit dependencies
-Tells Maven to include
-the Spring Boot
-web dependencies
-Tells Maven to
-include the
-Spring Actuator
-dependenciesThe developer’s tale: building a microservice with Spring Boot and Java 47
-<!—-Note: Some the build properties and Docker build plugins have been
-excluded from the pom.xml in this pom (not in the source code in the
-github repository) because they are not relevant to our discussion here.
--->
-<build>
-<plugins>
-<plugin>
-<groupId>org.springframework.boot</groupId>
-<artifactId>spring-boot-maven-plugin</artifactId>
-</plugin>
-</plugins>
-</build>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.thoughtmechanix</groupId>
+    <artifactId>licensing-service</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <name>EagleEye Licensing Service</name>
+    <description>Licensing Service</description>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.4.4.RELEASE</version>
+        <relativePath/>
+    </parent>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+    </dependencies>
+    <!--Note: Some the build properties and Docker build plugins have been
+    excluded from the pom.xml in this pom (not in the source code in the
+    github repository) because they are not relevant to our discussion here.
+    注意：一些构建属性以及Docker构建插件从本pom.xml文件里排除了（github代码库里相应的源码
+    里也没有），因为它们与此处的讨论无关。
+    -->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 </project>
 ```
-
-
 
 
 
