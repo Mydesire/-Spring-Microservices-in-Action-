@@ -38,9 +38,7 @@ The first thing to note in this code is the use of the @SpringBootApplication an
 
 Under the covers, the @SpringBootApplication annotation marks the Application class in listing 2.2 as a configuration class, then begins auto-scanning all the classes on the Java class path for other Spring Beans.
 
-The second thing to note is the Application class’s main\(\) method. In the main\(\) method, the SpringApplication.run\(Application.class, args\), the call starts the Spring container and returns a Spring ApplicationContext object. \(You aren’t doing anything with the ApplicationContext, so it isn’t shown in the
-
-code.\)
+The second thing to note is the Application class’s main\(\) method. In the main\(\) method, the SpringApplication.run\(Application.class, args\), the call starts the Spring container and returns a Spring ApplicationContext object. \(You aren’t doing anything with the ApplicationContext, so it isn’t shown in the code.\)
 
 The easiest thing to remember about the @SpringBootApplication annotation and the corresponding Application class is that it’s the bootstrap class for the entire microservice. Core initialization logic for the service should be placed in this class.
 
