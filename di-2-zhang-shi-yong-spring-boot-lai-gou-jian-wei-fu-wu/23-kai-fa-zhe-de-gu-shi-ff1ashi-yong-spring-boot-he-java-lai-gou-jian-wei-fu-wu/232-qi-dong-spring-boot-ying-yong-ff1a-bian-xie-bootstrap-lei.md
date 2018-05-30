@@ -14,3 +14,22 @@ As you’ll see shortly, Spring Boot uses annotations to simplify setting up and
 
 就像你在接下来将看到的那样，Spring Boot通过使用注解来简化服务的建立和配置过程。我们将在下面的清单的bootstrap类更清晰地感受到这点。bootstrap类位于src/main/java/com/thoughtmechanix/licenses/Application.java文件里。
 
+Listing 2.2 Introducing the @SpringBootApplication annotation（清单2.2 @SpringBootApplication注解的介绍）
+
+```java
+package com.thoughtmechanix.licenses;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+// @SpringBootApplication注解告诉Spring Boot框架这是项目的bootstrap类
+@SpringBootApplication
+public class Application {
+    public static void main(String[] args) {
+        // 调用run方法来启动Spring Boot服务
+        SpringApplication.run(Application.class, args);
+    }
+}
+```
+
+
+
