@@ -1,5 +1,3 @@
-### 
-
 ### 2.3 开发者的故事：使用Spring Boot和Java来构建微服务
 
 When building a microservice, moving from the conceptual space to the implementation space requires a shift in perspective. Specifically, as a developer, you need to establish a basic pattern of how each of the microservices in your application is going to be implemented. While each service is going to be unique, you want to make sure that you’re using a framework that removes boilerplate code and that each piece of your microservice is laid out in the same consistent fashion.
