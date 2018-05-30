@@ -2,7 +2,8 @@
 
 Now that you’ve gotten the build script out of the way and implemented a simple Spring Boot Bootstrap class, you can begin writing your first code that will do something. This code will be your Controller class. In a Spring boot application, a Controller class exposes the services endpoints and maps the data from an incoming HTTP request to a Java method that will process the request.
 
-> **Give it a REST**
+> **Give it a REST  
+> **
 >
 > All the microservices in this book follow the REST approach to building your services. An in-depth discussion of REST is outside of the scope this book,a but for your purposes, all the services you build will have the following characteristics:
 >
@@ -34,4 +35,24 @@ public class LicenseServiceController {
 ```
 
 We’ll begin our exploration by looking at the @RestController annotation. The @RestController is a class-level Java annotation and tells the Spring Container that this Java class is going to be used for a REST-based service. This annotation automatically handles the serialization of data passed into the services as JSON or XML \(by default the @RestController class will serialize returned data into JSON\). Unlike the traditional Spring @Controller annotation, the @RestController annotation doesn’t require you as the developer to return a ResponseBody class from your controller class. This is all handled by the presence of the @RestController annotation, which includes the @ResponseBody annotation.
+
+> **Why JSON for microservices?**
+>
+> Multiple protocols can be used to send data back and forth between HTTP-based microservices. JSON has emerged as the de facto standard for several reasons.
+>
+> First, compared to other protocols such as the XML-based SOAP \(Simple Object Access Protocol\), it’s extremely lightweight in that you can express your data without having much textual overhead.
+>
+> Second, it’s easily read and consumed by a human being. This is an underrated quality for choosing a serialization protocol. When a problem arises, it’s critical for developers to look at a chunk of JSON and quickly, visually process what’s in it. The simplicity of the protocol makes this incredibly easy to do.
+>
+> Third, JSON is the default serialization protocol used in JavaScript. Since the dramatic rise of JavaScript as a programming language and the equally dramatic rise of Single Page Internet Applications \(SPIA\) that rely heavily on JavaScript, JSON has become a natural fit for building REST-based applications because it’s what the frontend web clients use to call services.
+>
+> Other mechanisms and protocols are more efficient than JSON for communicating between services. The Apache Thrift \(http://thrift.apache.org\) framework allows you to build multi-language services that can communicate with one another using a binary protocol. The Apache Avro protocol \(http://avro.apache.org\) is a data serialization protocol that converts data back and forth to a binary format between client and server calls.
+>
+> If you need to minimize the size of the data you’re sending across the wire, I recommend you look at these protocols. But it has been my experience that using straightup JSON in your microservices works effectively and doesn’t interpose another layer of communication to debug between your service consumers and service clients.
+
+The second annotation shown in listing 2.3 is the @RequestMapping annotation. You can use the @RequestMapping annotation as a class-level and method-level annotation. The @RequestMapping annotation is used to tell the Spring container the HTTP endpoint that the service is going to expose to the world. When you use the class-level @RequestMapping annotation, you’re establishing the root of the URL for all the other endpoints exposed by the controller.
+
+In listing 2.3, the @RequestMapping\(value="/v1/organizations/{organizationId}/licenses"\) uses the value attribute to establish the root of the URL for all endpoints exposed in the controller class. All service endpoints exposed in this controller will start with /v1/organizations/{organizationId}/licenses as the root of their endpoint. The {organizationId} is a placeholder that indicates how you expect the URL to be parameterized with an organizationId passed in every call. The use of organizationId in the URL allows you to differentiate between the different customers who might use your service.
+
+Now you’ll add the first method to your controller. This method will implement the GET verb used in a REST call and return a single License class instance, as shown in the following listing. \(For purposes of this discussion you’ll instantiate a Java class called License.\)
 
