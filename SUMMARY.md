@@ -38,4 +38,5 @@
     * [2.3.1 由搭建项目基本框架开始](di-2-zhang-shi-yong-spring-boot-lai-gou-jian-wei-fu-wu/23-kai-fa-zhe-de-gu-shi-ff1ashi-yong-spring-boot-he-java-lai-gou-jian-wei-fu-wu/231-you-da-jian-xiang-mu-ji-ben-kuang-jia-kai-shi.md)
     * [2.3.2 启动Spring Boot应用：编写Bootstrap类](di-2-zhang-shi-yong-spring-boot-lai-gou-jian-wei-fu-wu/23-kai-fa-zhe-de-gu-shi-ff1ashi-yong-spring-boot-he-java-lai-gou-jian-wei-fu-wu/232-qi-dong-spring-boot-ying-yong-ff1a-bian-xie-bootstrap-lei.md)
     * [2.3.3 构建微服务的入口：Spring Boot controller](di-2-zhang-shi-yong-spring-boot-lai-gou-jian-wei-fu-wu/23-kai-fa-zhe-de-gu-shi-ff1ashi-yong-spring-boot-he-java-lai-gou-jian-wei-fu-wu/233-gou-jian-wei-fu-wu-de-ru-kou-ff1a-spring-boot-controller.md)
+  * [2.6 总结](di-2-zhang-shi-yong-spring-boot-lai-gou-jian-wei-fu-wu/26-zong-jie.md)
 
