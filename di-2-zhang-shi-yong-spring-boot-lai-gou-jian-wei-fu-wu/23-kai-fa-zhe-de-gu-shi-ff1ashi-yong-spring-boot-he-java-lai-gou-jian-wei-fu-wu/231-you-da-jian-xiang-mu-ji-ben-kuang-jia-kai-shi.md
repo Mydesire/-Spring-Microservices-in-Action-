@@ -52,8 +52,8 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <!--Note: Some the build properties and Docker build plugins have been
     excluded from the pom.xml in this pom (not in the source code in the
     github repository) because they are not relevant to our discussion here.
-    注意：一些构建属性以及Docker构建插件从本pom.xml文件里排除了（github代码库里相应的源码
-    里也没有），因为它们与此处的讨论无关。
+    注意：一些构建属性以及Docker构建插件从本pom.xml文件里排除了（本pom文件不在github代码库
+    的源码里），因为它们与此处的讨论无关。
     -->
     <build>
         <plugins>
