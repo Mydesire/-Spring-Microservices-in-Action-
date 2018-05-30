@@ -51,3 +51,5 @@ The second thing to note is the Application class’s main\(\) method. In the ma
 
 The easiest thing to remember about the @SpringBootApplication annotation and the corresponding Application class is that it’s the bootstrap class for the entire microservice. Core initialization logic for the service should be placed in this class.
 
+关于@SpringBootApplication注解以及对应的Application类，需要记住的是，它是整个微服务的bootstrap类。服务的核心初始化逻辑应该要放在这个类里。
+
