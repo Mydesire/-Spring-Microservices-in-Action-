@@ -80,7 +80,9 @@ Also, Spring Source has provided Maven plugins that simplify the build and deplo
 
 Finally, you’ll see a comment that sections of the Maven file have been removed. For the sake of the trees, I didn’t include the Spotify Docker plugins in listing 2.1.
 
-最后，你会看到一段注释，里面写着有些东西从Maven文件里移除了。为了与本书目录保持一致，我没有在清单2.1里包含Docker插件。
+最后，你会看到一段注释，里面写着有些东西从Maven文件里移除了。为了与本书目录保持一致，我没有在清单2.1里包含Spotify Docker插件。
 
 **NOTE** Every chapter in this book includes Docker files for building and deploying the application as Docker containers. You can find details of how to build these Docker images in the README.md file in the code sections of each chapter.
+
+**注意 **本书的每个章节都会包含一个关于将应用构建并部署成Docker容器的Docker文件。你可以通过每个章节的README.md文件来了解关于如何构建这些镜像的细节。
 
