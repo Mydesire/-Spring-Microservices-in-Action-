@@ -68,7 +68,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 We won’t go through the entire script in detail, but note a few key areas as we begin. Spring Boot is broken into many individual projects. The philosophy is that you shouldn’t have to “pull down the world” if you aren’t going to use different pieces of Spring Boot in your application. This also allows the various Spring Boot projects to release new versions of code independently of one another. To help simplify the life of the developers, the Spring Boot team has gathered related dependent projects into various “starter” kits. In part 1 of the Maven POM you tell Maven that you need to pull down version 1.4.4 of the Spring Boot framework.
 
-我们将不会深入探究整个脚本的细节，但有几个关键的地方要注意。
+我们将不会深入探究整个脚本的细节，但有几个关键的地方要注意。Spring Boot分成了许多独立的项目。
 
 In parts 2 and 3 of the Maven file, you identify that you’re pulling down the Spring Web and Spring Actuator starter kits. These two projects are at the heart of almost any Spring Boot REST-based service. You’ll find that as you build more functionality into your services, the list of these dependent projects becomes longer.
 
