@@ -36,4 +36,5 @@
     * [2.2.4 数据传输和一致性](di-2-zhang-shi-yong-spring-boot-lai-gou-jian-wei-fu-wu/22-shi-yao-shi-hou-bu-ying-gai-shi-yong-wei-fu-wu/224-shu-ju-chuan-shu-he-yi-zhi-xing.md)
   * [2.3 开发者的故事：使用Spring Boot和Java来构建微服务](di-2-zhang-shi-yong-spring-boot-lai-gou-jian-wei-fu-wu/23-kai-fa-zhe-de-gu-shi-ff1ashi-yong-spring-boot-he-java-lai-gou-jian-wei-fu-wu.md)
     * [2.3.1 由搭建项目基本框架开始](di-2-zhang-shi-yong-spring-boot-lai-gou-jian-wei-fu-wu/23-kai-fa-zhe-de-gu-shi-ff1ashi-yong-spring-boot-he-java-lai-gou-jian-wei-fu-wu/231-you-da-jian-xiang-mu-ji-ben-kuang-jia-kai-shi.md)
+    * [2.3.2 启动Spring Boot应用：编写Bootstrap类](di-2-zhang-shi-yong-spring-boot-lai-gou-jian-wei-fu-wu/23-kai-fa-zhe-de-gu-shi-ff1ashi-yong-spring-boot-he-java-lai-gou-jian-wei-fu-wu/232-qi-dong-spring-boot-ying-yong-ff1a-bian-xie-bootstrap-lei.md)
 
