@@ -7,3 +7,5 @@ Your goal is to get a simple microservice up and running in Spring Boot and then
 
 As you’ll see shortly, Spring Boot uses annotations to simplify setting up and configuring the service. This becomes evident as you look at the bootstrap class in the following listing. This bootstrap class is in the src/main/java/com/thoughtmechanix/licenses/Application.java file.
 
+我们的目标是起一个简单的微服务，并运行在Spring Boot里，然后通过迭代来持续交付功能。
+
