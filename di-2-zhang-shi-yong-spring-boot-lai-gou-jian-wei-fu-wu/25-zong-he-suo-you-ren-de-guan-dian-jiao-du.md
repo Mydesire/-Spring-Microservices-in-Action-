@@ -8,4 +8,7 @@ Microservices in the cloud seem deceptively simple. But to be successful with th
 
 云上的微服务看起来好像很简单。但若要成功地运转起来，我们需要结合架构师，开发人员，以及DevOps工程师地观点角度。每个观点地关键结论是
 
-1. 
+1. 架构师—
+
+
+
