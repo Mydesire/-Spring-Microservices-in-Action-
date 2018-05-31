@@ -13,8 +13,9 @@
 * From a DevOp’s perspective, how a microservice is packaged, deployed, and monitored are of critical importance.  
   从运维的角度来看，如何对微服务进行打包，部署，以及监控是非常重要的。
 * Out of the box, Spring Boot allows you to deliver a service as a single executable JAR file. An embedded Tomcat server in the producer JAR file hosts the service.  
-  
-* Spring Actuator, which is included with the Spring Boot framework, exposes information about the operational health of the service along with information about the services runtime.
+  Spring Boot开箱即用的特性允许你可以将服务作为单个可执行JAR文件来交付。内嵌在用于生产的JAR文件托管该服务。
+* Spring Actuator, which is included with the Spring Boot framework, exposes information about the operational health of the service along with information about the services runtime.  
+  包含在Spring Boot框架里的Spring Actuator，可以通过服务运行时的信息来暴露服务的健康状态信息。
 
 
 
