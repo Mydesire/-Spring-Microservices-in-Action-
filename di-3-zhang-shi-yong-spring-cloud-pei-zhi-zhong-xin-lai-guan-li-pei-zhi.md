@@ -18,6 +18,8 @@ At one point or another, a developer will be forced to separate configuration in
 
 Many developers will turn to the lowly property file \(or YAML, JSON, or XML\) to store their configuration information. This property file will sit out on a server often containing database and middleware connection information and metadata about the application that will drive the application’s behavior. Segregating your application into a property file is easy and most developers never do any more operationalization of their application configuration then placing their configuration file under source control \(if that\) and deploying it as part of their application.
 
+许多开发人员都倾向于采用效率较低的配置文件（YAML，JSON，或者XML）来存储他们的配置信息。
+
 This approach might work with a small number of applications, but it quickly falls apart when dealing with cloud-based applications that may contain hundreds of microservices, where each microservice in turn might have multiple service instances running.
 
 Suddenly configuration management becomes a big deal as application and operations team in a cloud-based environment have to wrestle with a rat’s nest of which configuration files go where. Cloud-based microservices development emphasizes
