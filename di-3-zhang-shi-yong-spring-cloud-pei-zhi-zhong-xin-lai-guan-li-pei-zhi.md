@@ -22,7 +22,7 @@ Many developers will turn to the lowly property file \(or YAML, JSON, or XML\) t
 
 This approach might work with a small number of applications, but it quickly falls apart when dealing with cloud-based applications that may contain hundreds of microservices, where each microservice in turn might have multiple service instances running.
 
-这种方式对于少数的应用也许能运转，
+这种方式对于少数的应用也许能运转，但当面对包含着数百个微服务的基于云的应用，而且每个微服务都跑着多个服务实例时，这种方式很快就崩溃了。
 
 Suddenly configuration management becomes a big deal as application and operations team in a cloud-based environment have to wrestle with a rat’s nest of which configuration files go where. Cloud-based microservices development emphasizes
 
