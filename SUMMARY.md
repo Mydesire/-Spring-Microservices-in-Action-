@@ -41,4 +41,5 @@
   * [2.4 DevOps工程师的故事：为运行时的严密性而构建](di-2-zhang-shi-yong-spring-boot-lai-gou-jian-wei-fu-wu/24-devopsgong-cheng-shi-de-gu-shi-ff1a-wei-yun-xing-shi-de-yan-mi-xing-er-gou-jian.md)
   * [2.5 综合所有人的观点角度](di-2-zhang-shi-yong-spring-boot-lai-gou-jian-wei-fu-wu/25-zong-he-suo-you-ren-de-guan-dian-jiao-du.md)
   * [2.6 总结](di-2-zhang-shi-yong-spring-boot-lai-gou-jian-wei-fu-wu/26-zong-jie.md)
+* [第3章 使用Spring Cloud配置中心来管理配置](di-3-zhang-shi-yong-spring-cloud-pei-zhi-zhong-xin-lai-guan-li-pei-zhi.md)
 
