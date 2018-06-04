@@ -18,7 +18,7 @@ At one point or another, a developer will be forced to separate configuration in
 
 Many developers will turn to the lowly property file \(or YAML, JSON, or XML\) to store their configuration information. This property file will sit out on a server often containing database and middleware connection information and metadata about the application that will drive the application’s behavior. Segregating your application into a property file is easy and most developers never do any more operationalization of their application configuration then placing their configuration file under source control \(if that\) and deploying it as part of their application.
 
-许多开发人员都倾向于采用效率较低的配置文件（YAML，JSON，或者XML）来存储他们的配置信息。配置文件位于服务器里，而且通常包含着数据库和中间件的连接信息，
+许多开发人员都倾向于采用效率较低的配置文件（YAML，JSON，或者XML）来存储他们的配置信息。配置文件位于服务器里，而且通常包含着数据库和中间件的连接信息，以及驱动应用行为的元数据。将应用与配置文件隔离不难，而且多数开发人员不会对应用配置做更多的操作，如对配置文件进行源码控制（如果有的话）以及将它们作为应用的一部分进行部署。
 
 This approach might work with a small number of applications, but it quickly falls apart when dealing with cloud-based applications that may contain hundreds of microservices, where each microservice in turn might have multiple service instances running.
 
