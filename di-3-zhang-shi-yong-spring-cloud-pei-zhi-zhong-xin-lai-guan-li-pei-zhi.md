@@ -1,4 +1,4 @@
-### 第3章 使用Spring Cloud配置中心来管理配置
+### 第3章 通过Spring Cloud配置中心来管理配置
 
 > **This chapter covers**  
 > 1. Separating service configuration from service code  
