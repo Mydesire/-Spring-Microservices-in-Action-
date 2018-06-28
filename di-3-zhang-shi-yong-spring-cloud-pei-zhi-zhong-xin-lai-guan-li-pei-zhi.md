@@ -26,3 +26,9 @@ This approach might work with a small number of applications, but it quickly fal
 
 Suddenly configuration management becomes a big deal as application and operations team in a cloud-based environment have to wrestle with a rat’s nest of which configuration files go where. Cloud-based microservices development emphasizes
 
+1. Completely separating the configuration of an application from the actual code being deployed
+2. Building the server and the application and an immutable image that never changes as it’s promoted through your environments
+3. Injecting any application configuration information at startup time of the server through either environment variables or through a centralized repository the application’s microservices read on startup
+
+This chapter will introduce you to the core principles and patterns needed to manage application configuration data in a cloud-based microservice application.
+
